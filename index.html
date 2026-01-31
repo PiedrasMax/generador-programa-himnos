@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Programa de Himnos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Programa de Himnos – Nanakorobi</h1>
+
+    
+    <div id="banner" class="note hidden"></div>
+
+    <!-- MANUAL DE USO - ESTILO INASUD -->
+    <div class="manual-container">
+    <h1 class="manual-title">Generador de Programa de Himnos</h1>
+    <p class="manual-subtitle">
+        Esta herramienta permite elaborar el Programa de Himnos mensual siguiendo la metodología utilizada
+        en las comunidades de la Iglesia Nueva Apostólica Sudamérica.
+    </p>
+
+
+    <div class="manual-columns">
+        <div>
+        <h3>Modo Colaborador</h3>
+        <p>
+            Cargá los himnos de cada Servicio Divino usando “Agregar Servicio Divino”.<br>
+            El sistema sugiere himnos según himnario y rubro, permite especificar estrofas
+            y genera un texto estándar listo para enviar por WhatsApp al responsable del Programa mensual.
+        </p>
+        </div>
+
+        <div>
+        <h3>Modo Maestro</h3>
+        <p>
+            Pegá el texto recibido, revisá cada día, editá lo necesario y finalmente generá el
+            <b>PDF oficial</b> del Programa mensual. Incluye encabezado, ensayos, marca de agua y formato apaisado.
+        </p>
+        </div>
+
+        <div>
+        <h3>Flujo recomendado</h3>
+        <p>
+            <b>Colaborador → Maestro → Exportar PDF</b><br>
+            De esta forma asegurás un programa uniforme, completo y sin errores de transcripción.
+        </p>
+        </div>
+    </div>
+
+    <p class="manual-note">
+        Nota: Para que la aplicación funcione correctamente, debe abrirse desde un servidor
+        (python <i>http.server</i>, Live Server, etc.) ya que se carga el catálogo de himnos por <i>fetch</i>.
+    </p>
+    </div>
+
+    
+    <button id="modoColaborador">Modo Colaborador</button>
+    <button id="modoMaestro">Modo Maestro</button>
+
+    
+    <div id="colaborador" class="hidden"></div>
+    <div id="maestro" class="hidden"></div>
+
+    <!-- jsPDF (cliente) -->
+    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.5.23/dist/jspdf.plugin.autotable.min.js"></script>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

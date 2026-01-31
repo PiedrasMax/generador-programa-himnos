@@ -1,0 +1,5380 @@
+[
+  {
+    "himnario": "HR",
+    "numero": "1",
+    "nombre": "Oh, qué alegre, jubiloso",
+    "rubro": "Navidad",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "2",
+    "nombre": "Venid, ¡oh! creyentes",
+    "rubro": "Navidad",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "3",
+    "nombre": "Se oye el canto de alabanza",
+    "rubro": "Navidad",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "4",
+    "nombre": "Suenen dulces himnos",
+    "rubro": "Navidad",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "5",
+    "nombre": "¡Jerusalén, despierta!",
+    "rubro": "Domingo de Ramos",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "6",
+    "nombre": "Hosanna en las alturas",
+    "rubro": "Domingo de Ramos",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "7",
+    "nombre": "Inmensa y sin igual piedad",
+    "rubro": "Viernes Santo",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 1"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "8",
+    "nombre": "El buen Jesús su vida dio en la cruz",
+    "rubro": "Viernes Santo",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 1"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "9",
+    "nombre": "Mirad al Salvador Jesús",
+    "rubro": "Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "10",
+    "nombre": "Oh, Pascua hermosa",
+    "rubro": "Pascua",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 3"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "11",
+    "nombre": "Oh, qué grato día de paz y alegría",
+    "rubro": "Pascua",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "12",
+    "nombre": "¡Aleluya! El Señor resucitó",
+    "rubro": "Pascua",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "13",
+    "nombre": "No habrá de verse al Salvador",
+    "rubro": "Ascensión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "14",
+    "nombre": "Cristo asciende a los cielos",
+    "rubro": "Ascensión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "15",
+    "nombre": "A ti, consuelo divino",
+    "rubro": "Pentecostés",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "16",
+    "nombre": "A ti, mi Dios, he de alabar",
+    "rubro": "Pentecostés",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "17",
+    "nombre": "Salvador, escucha el ruego",
+    "rubro": "Día de arrepentimiento",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 1"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "18",
+    "nombre": "Mírame, Señor amado",
+    "rubro": "Día de arrepentimiento",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "19",
+    "nombre": "Con humildad, Señor",
+    "rubro": "Día de arrepentimiento",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 1 y 2"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "20",
+    "nombre": "Alabemos a Dios",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "21",
+    "nombre": "Gozo y bienaventuranza",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "22",
+    "nombre": "Con gran gozo y placer",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "23",
+    "nombre": "Cada día más nos deleita estar",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "24",
+    "nombre": "Otra vez en la casa del Padre",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "25",
+    "nombre": "Otra alegría vivimos hoy",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "26",
+    "nombre": "Alegría vive nuestra alma",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "27",
+    "nombre": "¡Aleluya! Bella mañana",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "28",
+    "nombre": "Bendita casa",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "29",
+    "nombre": "En el sagrado templo",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "30",
+    "nombre": "Como si fuera el último sermón",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "31",
+    "nombre": "Es otra vez por la gracia",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "32",
+    "nombre": "El banco que tú ocupas",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "33",
+    "nombre": "Gracias damos, oh Señor",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "34",
+    "nombre": "Bendición otra vez nos llevamos",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "35",
+    "nombre": "Otra hora ha pasado",
+    "rubro": "Bienvenida - Inicio y final del Servicio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "36",
+    "nombre": "Hoy te llaman sin cesar",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "37",
+    "nombre": "A Jesucristo ven sin tardar",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "38",
+    "nombre": "Ven, alma que lloras",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 5"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "39",
+    "nombre": "Betesda está abierto",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "40",
+    "nombre": "Ven a la fuente de vida",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "41",
+    "nombre": "El que anhela venda",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "42",
+    "nombre": "Hay un lugar, aún hay un lugar",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "43",
+    "nombre": "Abre mis ojos, oh Señor",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "44",
+    "nombre": "Fresco torrente surge",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "45",
+    "nombre": "Se oye el coro otra vez cantar",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 3"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "46",
+    "nombre": "Tu santa palabra, mi Señor",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "47",
+    "nombre": "Habla, Señor, a mi alma",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "48",
+    "nombre": "Quiero obrar conforme a tu palabra",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "49",
+    "nombre": "Oh mi Señor, límpiame tú",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "50",
+    "nombre": "Si tú quieres tu alma vestir",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "51",
+    "nombre": "Una vida santa quiero",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "52",
+    "nombre": "Quiero ser igual a Cristo",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "53",
+    "nombre": "El trigo ya maduro",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "54",
+    "nombre": "No falta mucho para alcanzar",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "55",
+    "nombre": "Tú que me miras, oh gran Señor",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "56",
+    "nombre": "Yo sé que el Señor me escucha",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "57",
+    "nombre": "Hermoso es en la oración",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "58",
+    "nombre": "Si no tuvieres fe",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "59",
+    "nombre": "Si algo ha de llevarte a la morada",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "60",
+    "nombre": "Hoy del altar el Señor brindará",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "61",
+    "nombre": "Lo que guía nuestra vida",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "62",
+    "nombre": "Siempre adelante con valor y fe",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "63",
+    "nombre": "Toma firme el estandarte de la fe",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "64",
+    "nombre": "Todas las promesas del Señor Jesús",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "65",
+    "nombre": "Jesús, el mejor amigo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "66",
+    "nombre": "El Señor está a mi lado",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "67",
+    "nombre": "Dios está conmigo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "68",
+    "nombre": "Tras el mal tiempo y la tormenta",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "69",
+    "nombre": "Mi Dios es fiel",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "70",
+    "nombre": "Aún tenemos mucho que aprender",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "71",
+    "nombre": "Si tú quieres estar amparado",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "72",
+    "nombre": "Aunque caigan cerros y montes",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "73",
+    "nombre": "Si cada mañana le dices a Dios",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "74",
+    "nombre": "Jehová es mi Pastor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "75",
+    "nombre": "Mi Dios es mi guía",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "76",
+    "nombre": "A cualquiera parte sin temor iré",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "77",
+    "nombre": "Siempre avanza por senda clara",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "78",
+    "nombre": "La gran manada peregrina va",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "79",
+    "nombre": "Cuán dulce el nombre de Jesús",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "80",
+    "nombre": "De Jesús su dulce nombre",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "81",
+    "nombre": "Si la fe me abandonare",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "82",
+    "nombre": "El que habita al abrigo de Dios",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "83",
+    "nombre": "Hay un lugar do quiero estar",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "84",
+    "nombre": "Más cerca, oh Dios, de ti",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "85",
+    "nombre": "Cerca, más cerca",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "86",
+    "nombre": "Está muy cerca el Señor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "87",
+    "nombre": "En el camino a gloria eterna",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "88",
+    "nombre": "En tus afanes y en tu dolor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "89",
+    "nombre": "Cuando tus conflictos en la vida estén",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "90",
+    "nombre": "Vive en el divino cielo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "91",
+    "nombre": "No siempre el alma tiene alegrías",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "92",
+    "nombre": "Si tú amas a Jesús, acuérdate",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "93",
+    "nombre": "Como hermanos nos amemos",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "94",
+    "nombre": "Jesucristo nos alegra donde hay amor",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "95",
+    "nombre": "La grata nueva suena",
+    "rubro": "Perdon - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "96",
+    "nombre": "Cuanto tengo nada vale",
+    "rubro": "Perdon - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "97",
+    "nombre": "Más grande riqueza no puedo tener",
+    "rubro": "Perdon - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "98",
+    "nombre": "Lejos de mi Padre Dios",
+    "rubro": "Perdon - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "99",
+    "nombre": "Hoy vuelvo a ti, mi buen Señor",
+    "rubro": "Perdon - Gracia",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 1 y 2"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "100",
+    "nombre": "¡Oh!, yo hallé la paz de mi alma",
+    "rubro": "Perdon - Gracia",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 1"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "101",
+    "nombre": "Ya no mires más las faltas",
+    "rubro": "Perdon - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "102",
+    "nombre": "Trae tu ofrenda al Señor",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "103",
+    "nombre": "Nuestros himnos elevamos",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "104",
+    "nombre": "Hoy alabo y agradezco",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "105",
+    "nombre": "Cómo no he de agradecerte",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "106",
+    "nombre": "Te agradezco, Padre eterno",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "107",
+    "nombre": "Un sonido jubiloso",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "108",
+    "nombre": "Qué alegría en este día",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "109",
+    "nombre": "Somos los seres más dichosos",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "110",
+    "nombre": "Con un corazón alegre",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "111",
+    "nombre": "Venid con júbilo y cantad",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "112",
+    "nombre": "¡Oh!, cantemos muy gozosos",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "113",
+    "nombre": "Con cánticos, Señor",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "114",
+    "nombre": "Cantaré la bella historia",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "115",
+    "nombre": "Dad a Dios alabanza y gloria",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "116",
+    "nombre": "Santo, santo, Señor omnipotente",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "117",
+    "nombre": "Si son rojos mis pecados",
+    "rubro": "Arrepentimiento - Preparación para Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "118",
+    "nombre": "Se acerca el instante",
+    "rubro": "Arrepentimiento - Preparación para Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "119",
+    "nombre": "Por gracia soy reconciliado",
+    "rubro": "Arrepentimiento - Preparación para Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "120",
+    "nombre": "Ven, alma arrepentida",
+    "rubro": "Arrepentimiento - Preparación para Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "121",
+    "nombre": "Venid a mí",
+    "rubro": "Arrepentimiento - Preparación para Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "122",
+    "nombre": "Oíd la voz del cielo",
+    "rubro": "Arrepentimiento - Preparación para Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "123",
+    "nombre": "Acudo, Dios, a ti",
+    "rubro": "Arrepentimiento - Preparación para Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "124",
+    "nombre": "Cálices de gracia",
+    "rubro": "Arrepentimiento - Preparación para Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "125",
+    "nombre": "Aunque falto y débil soy",
+    "rubro": "Arrepentimiento - Preparación para Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "126",
+    "nombre": "Otra vez, oh Señor, tu perdón",
+    "rubro": "Arrepentimiento - Preparación para Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "127",
+    "nombre": "Soy reconciliado por gracia",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "128",
+    "nombre": "Arrepentido deseo gustar",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "129",
+    "nombre": "Corazón arrepentido",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "130",
+    "nombre": "Preparada ya está la mesa",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "131",
+    "nombre": "El divino Sacramento",
+    "rubro": "Santa Cena",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "132",
+    "nombre": "¡Oh Padre!, tú no mereces",
+    "rubro": "Santa Cena",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "133",
+    "nombre": "Comprado con sangre por Cristo",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "134",
+    "nombre": "Paz inunda mi corazón",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "135",
+    "nombre": "Ahora puedo descansar",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "136",
+    "nombre": "Al lado de Jesús",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "137",
+    "nombre": "¡Oh!, un mar de gracia y felicidad",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "138",
+    "nombre": "Mi alma te ama, oh mi Señor",
+    "rubro": "Santa Cena",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 4"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "139",
+    "nombre": "Dios es amor y me ha librado",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "140",
+    "nombre": "Roca de la salvación",
+    "rubro": "Santa Cena",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 3"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "141",
+    "nombre": "El alma se estremece",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "142",
+    "nombre": "Un río y verdes prados hay",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "143",
+    "nombre": "Bienaventurado soy",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "144",
+    "nombre": "Yo vivo por su gran bondad",
+    "rubro": "Santa Cena",
+    "temas": [
+      "Arrepentimiento",
+      "Preparación para Santa Cena",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HR",
+    "numero": "145",
+    "nombre": "Por gracia al fin unidos al Señor",
+    "rubro": "Santo Sellamiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "146",
+    "nombre": "Un hombre de noche llegó a Jesús",
+    "rubro": "Santo Sellamiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "147",
+    "nombre": "Quien desde la eternidad",
+    "rubro": "Santo Sellamiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "148",
+    "nombre": "¡Trabajad! ¡Trabajad!",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "149",
+    "nombre": "Sembraré la simiente preciosa",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "150",
+    "nombre": "Pronto la noche viene",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "151",
+    "nombre": "Vive aún la primavera",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "152",
+    "nombre": "Da lo mejor al Maestro",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "153",
+    "nombre": "Es hermoso vivir entregado",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "154",
+    "nombre": "Es en la Obra de Cristo",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "155",
+    "nombre": "Hijo de Dios, donde quiera que estés",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "156",
+    "nombre": "Jesús, yo he prometido",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "157",
+    "nombre": "Mi vida sin tu Obra",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "158",
+    "nombre": "Son los siervos nuestros guías",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "159",
+    "nombre": "La más grande riqueza",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "160",
+    "nombre": "Qué alegría, que paz",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "161",
+    "nombre": "Por la gracia de Dios hoy tenemos",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "162",
+    "nombre": "Yo el camino soy",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "163",
+    "nombre": "Jesús trazó un camino",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "164",
+    "nombre": "Dejo el mundo y sigo a Cristo",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "165",
+    "nombre": "Seguid a Jesús, andad en su luz",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "166",
+    "nombre": "Mantenga la fieldad",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "167",
+    "nombre": "Oh Padre, misericordioso Dios",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "168",
+    "nombre": "Misericordia dulce y eterna",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "169",
+    "nombre": "Mi Padre es un Rey",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "170",
+    "nombre": "Magnífica y venturosa",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "171",
+    "nombre": "Lo que Dios ha prometido",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "172",
+    "nombre": "Siempre las promesas del Señor Jesús",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "173",
+    "nombre": "Esperanza, fe y amor",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "174",
+    "nombre": "Es un placer vivir en la esperanza",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "175",
+    "nombre": "Vivir esperando a Cristo",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "176",
+    "nombre": "Nunca tan cerca estuvo",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "177",
+    "nombre": "Ya todo está cumplido",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "178",
+    "nombre": "¡Aleluya! Cristo ya viene",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "179",
+    "nombre": "Firmes, hermanos, y alertas",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "180",
+    "nombre": "¿Por qué te olvidas que pronto viene Cristo?",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "181",
+    "nombre": "En blanca nube Jesús vendrá",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "182",
+    "nombre": "El Novio viene, debo pensar",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "183",
+    "nombre": "Si sabes que Jesús pronto vendrá",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "184",
+    "nombre": "Cuando venga a la tierra",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "185",
+    "nombre": "La venida de Cristo se acerca",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "186",
+    "nombre": "Cuán felices son las almas",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "187",
+    "nombre": "Gracias doy a ti, Señor",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "188",
+    "nombre": "Millares son las almas",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "189",
+    "nombre": "¿Podré verte en la fuente?",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "190",
+    "nombre": "Cuando mis luchas terminen aquí",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "191",
+    "nombre": "Existe un reino hermoso",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "192",
+    "nombre": "Hay una ciudad que el Señor construyó",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "193",
+    "nombre": "Hermoso es el país",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "194",
+    "nombre": "A la gloria yo quiero ir",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "195",
+    "nombre": "Quisiera ir a casa de mi Padre",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "196",
+    "nombre": "Pronto vamos a casa con el Señor",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "197",
+    "nombre": "Bienaventurado el que siente",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "198",
+    "nombre": "Cuántas veces yo pienso en la tierra mejor",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "199",
+    "nombre": "Llegaremos al hogar",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HR",
+    "numero": "200",
+    "nombre": "En la gloria eterna",
+    "rubro": "Difuntos - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "3",
+    "nombre": "¿Cómo he de recibirte?",
+    "rubro": "Adviento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "23",
+    "nombre": "Oh, santísimo, felicísimo",
+    "rubro": "Navidad",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "26",
+    "nombre": "Noche de paz",
+    "rubro": "Navidad",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "30",
+    "nombre": "Por su amor y gran bondad",
+    "rubro": "Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "33",
+    "nombre": "El año ha terminado",
+    "rubro": "Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "40",
+    "nombre": "Ven, tu Rey se acerca a ti",
+    "rubro": "Domingo de Ramos",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "43",
+    "nombre": "Oh, rostro ensangrentado",
+    "rubro": "Viernes Santo",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 3"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "66",
+    "nombre": "Cantad, cristianos, de corazón",
+    "rubro": "Pascua",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "69",
+    "nombre": "Yo sé que vive mi Jesús",
+    "rubro": "Pascua",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "70",
+    "nombre": "En la Ascensión de Cristo",
+    "rubro": "Ascensión",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "76",
+    "nombre": "Do reina el Espíritu de Dios",
+    "rubro": "Pentecostés",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "81",
+    "nombre": "Santo Espíritu de Dios",
+    "rubro": "Pentecostés",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "82",
+    "nombre": "Don divino, don de vida",
+    "rubro": "Pentecostés",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "93",
+    "nombre": "La culpa quita hoy",
+    "rubro": "Día de arrepentimiento",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 1 y 4"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "95",
+    "nombre": "Oh, amado y buen Jesús",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "96",
+    "nombre": "Dios, mi luz, alúmbrame",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "97",
+    "nombre": "Hermano, deja la tristeza",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "99",
+    "nombre": "Luz divina alumbra aquí",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "103",
+    "nombre": "Dios está presente",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "106",
+    "nombre": "Comunidad de oración",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "107a",
+    "nombre": "Aquí está, oh Dios, mi corazón",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 3"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "111",
+    "nombre": "Hay un lugar por mi alma anhelado",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "112",
+    "nombre": "Oh, alma ven, acércate",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 1 y 2"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "116",
+    "nombre": "Oh, tú eres luz del mundo",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "118a",
+    "nombre": "Nos gozamos de la hora",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "120",
+    "nombre": "Oh, tómame buen Padre",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 3"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "125",
+    "nombre": "Qué lugar sublime y santo",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "128",
+    "nombre": "Hay un lugar querido por mí",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 1"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "130",
+    "nombre": "Tu palabra santa",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "131",
+    "nombre": "Abrazarte con anhelo",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "134",
+    "nombre": "Ven, entra, oh Señor",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 5"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "135",
+    "nombre": "Esfuérzate en aprovechar",
+    "rubro": "Invitación - Deseo de salvación - Santificación",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "144b",
+    "nombre": "Oh, quédate, Jesús, en mí",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "146a",
+    "nombre": "Si dejas tus caminos",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "154",
+    "nombre": "Aquel que su confianza pone",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "156",
+    "nombre": "Lo que hace el amado Dios",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "158",
+    "nombre": "Gran Salvador, a vencer tú ayudas",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "168",
+    "nombre": "Quiere mi alma refugiarse",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 4"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "175",
+    "nombre": "Rocío tu palabra es",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "181",
+    "nombre": "No puede encontrar el hombre la fe",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "186",
+    "nombre": "En tu palabra quiero estar",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "189",
+    "nombre": "Señor, a ti unido",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "190",
+    "nombre": "Alma mía espera en el Señor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "194",
+    "nombre": "Llévame de mis manos",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "196",
+    "nombre": "He visto yo un río de vida correr",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "199",
+    "nombre": "Señor, en todo tiempo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "200",
+    "nombre": "Luz tras oscuridad",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "202",
+    "nombre": "En mí corazón vive un Rey",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "204",
+    "nombre": "En las manos tengo yo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "221",
+    "nombre": "Yo adoro el poder del amor",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "227",
+    "nombre": "Cuán grande amor el de mi Padre",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "235",
+    "nombre": "De pequeñas gotas",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "236",
+    "nombre": "Quiero amarte aún más",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "237",
+    "nombre": "Oh, qué amigo nos es Cristo",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "243",
+    "nombre": "El gran amor de Cristo el Señor",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "250",
+    "nombre": "Un mensaje de la gracia",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "253",
+    "nombre": "Alma, quiero anunciarte",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "255",
+    "nombre": "Honras, glorias te damos gran Dios",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "256",
+    "nombre": "Agradeced a Dios",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "257b",
+    "nombre": "A ti mi alma canta",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "259",
+    "nombre": "¿No tendría que cantarle?",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "261",
+    "nombre": "Gloria al Señor y poderoso Rey",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "269",
+    "nombre": "Ovejita de Jesús",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "272",
+    "nombre": "Agradeced a nuestro Señor",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "273",
+    "nombre": "A Dios cantad",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "274",
+    "nombre": "Cantemos muy agradecidos",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "277",
+    "nombre": "A ti, Señor, la alabanza sea",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "289",
+    "nombre": "Jesús, tú eres mi sol",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "290",
+    "nombre": "Preciosa calma",
+    "rubro": "Santa Cena",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "291",
+    "nombre": "Rico Rey lleno de gracia",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "295",
+    "nombre": "Si Dios con su paz",
+    "rubro": "Santa Cena",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 2 y 3"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "300",
+    "nombre": "En esta bendita hora",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "332",
+    "nombre": "Corazón unificado",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "335",
+    "nombre": "Conoce a los suyos el Señor",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "342",
+    "nombre": "Nos une el amor con que Cristo",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "344",
+    "nombre": "Bela, fuerte Obra Dios nos da",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "355",
+    "nombre": "Alma nupcial despierta ya",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "366a",
+    "nombre": "Más cerca, oh Dios, de ti",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "370",
+    "nombre": "Buen Pastor, mi Jesucristo",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "371",
+    "nombre": "Estrella que guía",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "373",
+    "nombre": "Quiero yo, oh mi Señor",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "374",
+    "nombre": "Brilla gracia del Maestro",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "376",
+    "nombre": "Cerca de Cristo es bello vivir",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "383",
+    "nombre": "Hermosa vida la que Dios me dio",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": [
+      "Estrofas de himnos de arrepentimiento y preparación para Santa Cena",
+      "Estrofa 3"
+    ]
+  },
+  {
+    "himnario": "HI",
+    "numero": "395",
+    "nombre": "Arriba y adelante",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "398",
+    "nombre": "Oh, ven Jesús, Hijo de Dios",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "400",
+    "nombre": "De lejos pude ver",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "402",
+    "nombre": "Eternamente estar con el Señor",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "404",
+    "nombre": "¿Cómo será al fin de nuestra lucha?",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "406",
+    "nombre": "Santa es Sion, deliciosa",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "412a",
+    "nombre": "Oh, cuánto tiempo ya, Señor",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "417a",
+    "nombre": "A Sion, alma mía",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "430",
+    "nombre": "Oh, cuán breve es la vida",
+    "rubro": "Muerte - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "431",
+    "nombre": "Mi confianza es Jesús",
+    "rubro": "Muerte - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "434",
+    "nombre": "Voy al cielo",
+    "rubro": "Muerte - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "435",
+    "nombre": "Meditad en que hay un hogar",
+    "rubro": "Muerte - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "437",
+    "nombre": "Mira brillar las estrellas del cielo",
+    "rubro": "Muerte - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HI",
+    "numero": "438",
+    "nombre": "Do noche no habrá jamás",
+    "rubro": "Muerte - Vida eterna",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "1",
+    "nombre": "Dulce sonar de campanas",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": [
+      "Promesa",
+      "Espera",
+      "Cumplimiento",
+      "Estrofa 3"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "2",
+    "nombre": "Es Navidad, alegres festejemos",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "3",
+    "nombre": "Alégrate Jerusalén",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "4",
+    "nombre": "He aquí a todo el pueblo",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": [
+      "Promesa",
+      "Espera",
+      "Cumplimiento",
+      "Estrofa 3"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "5",
+    "nombre": "En los campos se ha escuchado",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "6",
+    "nombre": "La primera Navidad",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "7",
+    "nombre": "¡Oh, santísimo, felicísimo!",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "8",
+    "nombre": "Hoy es la alegre Navidad",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "9",
+    "nombre": "¡Qué niño es este?",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": [
+      "Promesa",
+      "Espera",
+      "Cumplimiento",
+      "Estrofa 3 | Difuntos",
+      "Vida eterna",
+      "Hogar celestial",
+      "Estrofa 4"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "10",
+    "nombre": "¡Oh! niño Jesus",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "11",
+    "nombre": "Donnido en el pesebre",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "12",
+    "nombre": "Todos venid adoremos al niño",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "13",
+    "nombre": "Venid, oh pastores",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "14",
+    "nombre": "Vengan todos con nosotros",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "15",
+    "nombre": "Oh, noche santa",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "16",
+    "nombre": "Al umbral del año",
+    "rubro": "Adviento -Navidad - Giro de año",
+    "temas": [
+      "Día de arrepentimiento",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "17",
+    "nombre": "Hosannas dieron a Jesús",
+    "rubro": "Domingo de Ramos - Viernes Santo Estrofa 1 y 2",
+    "temas": [
+      "Pentecostés",
+      "Estrofa 3 y 4"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "18",
+    "nombre": "Santo, santo, santo",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "19",
+    "nombre": "El Señor Jesús por mí",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "20",
+    "nombre": "En Jesucristo, mártir de paz",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "21",
+    "nombre": "¡Oh, cuánta gracia y amor sin igual!",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": [
+      "Día de arrepentimiento",
+      "Estrofa 3",
+      "4 y 5"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "22",
+    "nombre": "¿Sabes quién es el Amigo?",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "23",
+    "nombre": "Loor al Señor de vida",
+    "rubro": "Pascua - Ascención",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "24",
+    "nombre": "Elévate, elévate, mí himno",
+    "rubro": "Pascua - Ascención",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "25",
+    "nombre": "El Señor resucitó",
+    "rubro": "Pascua - Ascención",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "26",
+    "nombre": "Cristo vive y nos guiará",
+    "rubro": "Pascua - Ascención",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "27",
+    "nombre": "Mirad al Rey",
+    "rubro": "Pascua - Ascención",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "28",
+    "nombre": "Con alegría cantamos",
+    "rubro": "Pentecostés",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "29",
+    "nombre": "Aliento de mi Dios",
+    "rubro": "Santo Sellamiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "30",
+    "nombre": "Una parte de Dios esrá en mí",
+    "rubro": "Santo Sellamiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "31",
+    "nombre": "En tu amor yo fui llamado",
+    "rubro": "Santo Sellamiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "32",
+    "nombre": "Juntos aquí con el Señor",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "33",
+    "nombre": "Hoy por gracia de nuevo en el altar",
+    "rubro": "Confirmación - Juventud",
+    "temas": [
+      "Presentación de siervos",
+      "Ordenación Ministerial",
+      "Inauguración Iglesias"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "34",
+    "nombre": "Señor, concédeme la gracia",
+    "rubro": "Confirmación - Juventud",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "35",
+    "nombre": "Yo renuncio al diablo",
+    "rubro": "Confirmación - Juventud",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "36",
+    "nombre": "Juventud, la sonrisa de Dios sobre la tierra",
+    "rubro": "Confirmación - Juventud",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "37",
+    "nombre": "Adonde vayas también contigo quiero ir",
+    "rubro": "Bendición nupcial -Aniversario de bodas",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "38",
+    "nombre": "Qué dicha hennosa…",
+    "rubro": "Bendición nupcial -Aniversario de bodas",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "39",
+    "nombre": "A paso lento avanzan",
+    "rubro": "Bendición nupcial -Aniversario de bodas",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "40",
+    "nombre": "Dios hoy entrega en tu mano",
+    "rubro": "Presentación de siervos - Ordenación Ministerial - Inauguración Iglesias",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "41",
+    "nombre": "Fiel Pastor, nuestro Dios te llamó",
+    "rubro": "Presentación de siervos - Ordenación Ministerial - Inauguración Iglesias",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "42",
+    "nombre": "Quita tus zapatos ya",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "43",
+    "nombre": "Un buen encuentro",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "44",
+    "nombre": "Hoy es el día que Dios ha creado",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "45",
+    "nombre": "Casa del Padre, puerta del cielo",
+    "rubro": "Oficio Divino",
+    "temas": [
+      "Bendición nupcial",
+      "Aniversario de bodas",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "46",
+    "nombre": "Señor Jesús cuán bella",
+    "rubro": "Oficio Divino",
+    "temas": [
+      "Confirmación",
+      "Juventud",
+      "Presentación de siervos",
+      "Ordenación Ministerial",
+      "Inauguración Iglesias",
+      "Estrofa 3"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "47",
+    "nombre": "Yo no encuentro lugar sobre la tierra",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "48",
+    "nombre": "Padre de amor, qué hermoso es",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "49",
+    "nombre": "Cuántas horas hernosas",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "50",
+    "nombre": "La hora preciosa",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "51",
+    "nombre": "Cuánto goza en tu palabra",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "52",
+    "nombre": "Deseoso de escucharte",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "53",
+    "nombre": "Palabra de Apóstol",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "54",
+    "nombre": "Cuando estás frente al altar",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "55",
+    "nombre": "Escucha alma mía",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "56",
+    "nombre": "Escuchar la voz de nuestros siervos",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "57",
+    "nombre": "Gloria canten a tu nombre",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "58",
+    "nombre": "Grandiosa, potente es la voz celestial",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "59",
+    "nombre": "Como brisa es tu voz",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "60",
+    "nombre": "Cuán dulces son tus palabras",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "61",
+    "nombre": "Alma escucha",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "62",
+    "nombre": "El Señor con amor infinito",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": [
+      "Presentación de siervos",
+      "Ordenación Ministerial",
+      "Inauguración Iglesias",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "63",
+    "nombre": "El Señor te llama hoy",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": [
+      "Domingo de Ramos",
+      "Viernes Santo",
+      "Estrofa 5"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "64",
+    "nombre": "¿Quién está aguardando?",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "65",
+    "nombre": "Oíd la voz del Salvador",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "66",
+    "nombre": "Ven a Jesús, ¡oh! alma errante",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "67",
+    "nombre": "Ven a la fuente ya",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "68",
+    "nombre": "Ven al altar",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": [
+      "Alabanza",
+      "Agradecimiento",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "69",
+    "nombre": "Asciende a lo más alto",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "70",
+    "nombre": "Callad,oíd",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": [
+      "La venida de Cristo",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "71",
+    "nombre": "Ven pronto ante Dios",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "72",
+    "nombre": "Entrega, hermano, tu corazón",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "73",
+    "nombre": "¡Salvos! ¡Salvos!",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "74",
+    "nombre": "Hazme limpio",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "75",
+    "nombre": "Humildad, precioso don",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "76",
+    "nombre": "Por piedad te pido, Cristo",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "77",
+    "nombre": "Sé tú mi Padre",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "78",
+    "nombre": "Señor, escucha",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "79",
+    "nombre": "¡Oh!, mi Señor, tierno Jesús",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "80",
+    "nombre": "Como mi Cristo",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "81",
+    "nombre": "En un santo acatamiento",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "82",
+    "nombre": "Oh, Jesús, tus pasos sigo",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "83",
+    "nombre": "Tu santa voluntad, Señor",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "84",
+    "nombre": "Haz lo que quieras de mí, Señor",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "85",
+    "nombre": "Señor, necesito de ti",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "86",
+    "nombre": "Quiero entreganne",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "87",
+    "nombre": "Tened paciencia en el dolor",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "88",
+    "nombre": "Señor, déjame ser un niño",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "89",
+    "nombre": "Manos que oran, manos que rezan",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "90",
+    "nombre": "Hermanos, roguemos todos",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "91",
+    "nombre": "Oh. gracias buen Padre",
+    "rubro": "Santificación - Oración",
+    "temas": [
+      "Presentación de siervos",
+      "Ordenación Ministerial",
+      "Inauguración Iglesias",
+      "Estrofa 1"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "92",
+    "nombre": "Orad sin cesar",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "93",
+    "nombre": "Qué hermoso es orar",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "94",
+    "nombre": "Qué paz encuentra el alma",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "95",
+    "nombre": "Qué grande bendición",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "96",
+    "nombre": "Señor, auméntame la fe",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "97",
+    "nombre": "Cree siempre de verdad",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "98",
+    "nombre": "Señor, en ti yo creo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "99",
+    "nombre": "¡Padre, óyeme y ayúdame!",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "100",
+    "nombre": "A la sombra del Eterno",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "101",
+    "nombre": "¿Adónde puedo ir?",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "102",
+    "nombre": "Aunque no sé el camino",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "103",
+    "nombre": "Bajo su mano yo siempre estoy",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "104",
+    "nombre": "Bajo sus alas seguro descanso",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "105",
+    "nombre": "Busca refugio en el buen Señor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "106",
+    "nombre": "Confiad en la palabra",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "107",
+    "nombre": "Confia en Dios",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "108",
+    "nombre": "No perdáis vuestra confianza",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "109",
+    "nombre": "Gozaos en el Señor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "110",
+    "nombre": "Misericordioso Dios",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "111",
+    "nombre": "El Salvador Jesús",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "112",
+    "nombre": "Es tu promesa ¡oh Señor!",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "113",
+    "nombre": "Dios es mi fortaleza",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "114",
+    "nombre": "Cuando no existe el camino",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "115",
+    "nombre": "Guíame, Jesús amado",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "116",
+    "nombre": "Guíame ¡oh Salvador!",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "117",
+    "nombre": "Guíame, oh Señor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "118",
+    "nombre": "Junto con Jesús",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "119",
+    "nombre": "La certeza de la vida eterna",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "120",
+    "nombre": "No me preocupa el porvenir",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": [
+      "Bendición nupcial",
+      "Aniversario de bodas",
+      "Estrofa 4 y 5"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "121",
+    "nombre": "Me guía Él, con cuánto amor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "122",
+    "nombre": "No temas que contigo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "123",
+    "nombre": "Ya no te detengas",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "124",
+    "nombre": "Lleno de angustia y temores",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "125",
+    "nombre": "Oscuridad sobre la tierra",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "126",
+    "nombre": "El Sefior es mi luz",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "127",
+    "nombre": "Aunque ruja la tormenta",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "128",
+    "nombre": "Quien mora al abrigo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "129",
+    "nombre": "Siempre adelante y a la victoria",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "130",
+    "nombre": "¡Oh, hermano apostólico, firme!",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "131",
+    "nombre": "Tentado no cedas",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "132",
+    "nombre": "¡Oh Jesús! cuán inefable",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "133",
+    "nombre": "¡Oh, cuán grande amor!",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "134",
+    "nombre": "Amor espléndido",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": [
+      "Domingo de Ramos",
+      "Viernes Santo"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "135",
+    "nombre": "Ama el Pastor sus ovejas",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "136",
+    "nombre": "Señor de ti",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "137",
+    "nombre": "Tengo un amigo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "138",
+    "nombre": "Yo alzaré mis ojos",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "139",
+    "nombre": "A ti que habitas en el cielo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "140",
+    "nombre": "Señor Jesús, mi gran consuelo",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "141",
+    "nombre": "Calma, oh, ten calma",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "142",
+    "nombre": "Oíd, oíd a vuestro Dios",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "143",
+    "nombre": "Sé manso en el Señor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "144",
+    "nombre": "Alma mía de Dios es tu paz",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "145",
+    "nombre": "Colma mi alma",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "146",
+    "nombre": "Cuánta paz",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "147",
+    "nombre": "En el alma sólo hay paz",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "148",
+    "nombre": "Paz tan sublime",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": [
+      "Adviento",
+      "Navidad",
+      "Giro de año",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "149",
+    "nombre": "Paz verdadera",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "150",
+    "nombre": "Profunda paz",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "151",
+    "nombre": "Tú, que en el cielo estás",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "152",
+    "nombre": "¿Cómo podré estar triste?",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "153",
+    "nombre": "¿Has tratado de llevar tu carga?",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "154",
+    "nombre": "Muy pronto ya no habrá",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "155",
+    "nombre": "Si en la lucha muy débil estás",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "156",
+    "nombre": "Si estás tú triste",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "157",
+    "nombre": "Caridad, virtud divina",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "158",
+    "nombre": "Jesucristo nos alegra",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "159",
+    "nombre": "Dios os guarde en su santo amor",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "160",
+    "nombre": "Fraterno amor",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "161",
+    "nombre": "Admirable gracia",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "162",
+    "nombre": "Admirable gracia",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "163",
+    "nombre": "Gracia y amor de Dios",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "164",
+    "nombre": "No me apartes de tu gracia",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "165",
+    "nombre": "Señor, por tu gracia",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "166",
+    "nombre": "Mi Salvación, Señor, eres tú",
+    "rubro": "Perdón - Gracia",
+    "temas": [
+      "Día de arrepentimiento",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "167",
+    "nombre": "Tú eres refugio para mí",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "168",
+    "nombre": "Qué más puedo pedir",
+    "rubro": "Perdón - Gracia",
+    "temas": [
+      "Santo Sellamiento"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "169",
+    "nombre": "Oh, venid y alegraos",
+    "rubro": "Perdón - Gracia",
+    "temas": [
+      "Bendición nupcial",
+      "Aniversario de bodas",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "170",
+    "nombre": "Maravillosa gracia",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "171",
+    "nombre": "Agradeced al buen Señor",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "172",
+    "nombre": "Alabad al Señor",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "173",
+    "nombre": "A la divina Trinidad",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "174",
+    "nombre": "Adoramos al trino Dios",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "175",
+    "nombre": "Alabad todos al Señor",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "176",
+    "nombre": "Aleluya amén",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "177",
+    "nombre": "¡Aleluya! Pues ha reinado el Señor",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "178",
+    "nombre": "Aleluya, aleluya",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "179",
+    "nombre": "¡Oh!, si tuviera yo mil lenguas",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "180",
+    "nombre": "Dios tu bondad",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "181",
+    "nombre": "Oh, mi Señor, omnipotente Dios",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "182",
+    "nombre": "Cantaré, cantaré",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "183",
+    "nombre": "Canta y alaba en coros alegres",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "184",
+    "nombre": "Cantad alegres nueva canción",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "185",
+    "nombre": "Cantemos aquí con los santos en luz",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "186",
+    "nombre": "¡Gloria, gloria a Dios en los cielos!",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "187",
+    "nombre": "¡Gloria! ¡Gloria! Sea a Jesús Redentor",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": [
+      "Domingo de Ramos",
+      "Viernes Santo",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "188",
+    "nombre": "Jesucristo te adoramos",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "189",
+    "nombre": "A mi buen Dios",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "190",
+    "nombre": "¡Oh, dulce Maestro!",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "191",
+    "nombre": "Padre amado, quiero me enseñes",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "192",
+    "nombre": "Todo es gracia",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "193",
+    "nombre": "Nunca, Dios mío",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "194",
+    "nombre": "Por siempre aclamad el gran poder",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "195",
+    "nombre": "Por tan grande bien",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "196",
+    "nombre": "Toda vida fluye de ti",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "197",
+    "nombre": "Santo, santo, santo",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": [
+      "Domingo de Ramos",
+      "Viernes Santo",
+      "Estrofa 1"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "198",
+    "nombre": "Santo, santo, santo es nuestro Dios",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "199",
+    "nombre": "¡Oh Dios, mi soberano Rey!",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "200",
+    "nombre": "Tu Obra es excelsa creació",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "201",
+    "nombre": "Buscad, hermanos, aquella alma",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "202",
+    "nombre": "Buscad, buscad, dice el Seilor",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "203",
+    "nombre": "Buscad, buscad, dice el Seiior",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "204",
+    "nombre": "Nunca esperes el momento",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "205",
+    "nombre": "En la tierra hay un pueblo",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "206",
+    "nombre": "Hay sobre la tierra",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "207",
+    "nombre": "No olvidemos nunca lo que hoy somos",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "208",
+    "nombre": "El Espíritu de Dios nos hace alegres",
+    "rubro": "Comunidad - Comunión",
+    "temas": [
+      "Pentecostés",
+      "Santo Sellamiento"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "209",
+    "nombre": "Es en la Obra de Cristo",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "210",
+    "nombre": "Construyendo estamos",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "211",
+    "nombre": "¡Levántate y seas luz!",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "212",
+    "nombre": "Sobre el camino esparciste tú",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "213",
+    "nombre": "Ámame siempre, mi fiel Pastor",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": [
+      "Día de arrepentimiento",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "214",
+    "nombre": "Como un ángel que Dios colocó",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "215",
+    "nombre": "Manos que oran llenas de amor",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "216",
+    "nombre": "Mientras haya en la tierra un Apóstol",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": [
+      "Santo Sellamiento"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "217",
+    "nombre": "Qué alegría, qué paz",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "218",
+    "nombre": "Dios te guarde amado Apóstol",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": [
+      "Presentación de siervos",
+      "Ordenación Ministerial",
+      "Inauguración Iglesias",
+      "Estrofa 1 | Promesa",
+      "Espera",
+      "Cumplimiento",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "219",
+    "nombre": "Donde Apóstoles enviados son",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "220",
+    "nombre": "El camino es el Señor",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "221",
+    "nombre": "Para andar con Jesús",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "222",
+    "nombre": "Seguir la senda que Jesús",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "223",
+    "nombre": "Yo sé de una senda",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "224",
+    "nombre": "Yo quiero andar la senda",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "225",
+    "nombre": "Cuánto añoramos hoy tu venida",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": [
+      "Día de arrepentimiento",
+      "Estrofa 2"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "226",
+    "nombre": "Nunca tan cerca estuvo",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "227",
+    "nombre": "¡Oh! novia del Señor",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "228",
+    "nombre": "Señor, nos diste un día la santa promesa",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "229",
+    "nombre": "Ya se acerca la hora feliz",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "230",
+    "nombre": "Un poco de tiempo",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "231",
+    "nombre": "Con qué alegria predica el Pastor",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "232",
+    "nombre": "Cada vez más cerca la venida del Salvador",
+    "rubro": "La venida de Cristo",
+    "temas": [
+      "Pascua",
+      "Ascención"
+    ]
+  },
+  {
+    "himnario": "HC",
+    "numero": "233",
+    "nombre": "La voz del ángel nos dice",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "234",
+    "nombre": "¡El Seflor Jesús viene ya!",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "235",
+    "nombre": "La noche viene",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "236",
+    "nombre": "¡ Ven, ven Seftor!",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "237",
+    "nombre": "Ven, ven Seftor",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "238",
+    "nombre": "Y al final llega el último día",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "239",
+    "nombre": "Viene otra vez nuestro Salvador",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "240",
+    "nombre": "Pronto del cielo vendrá el Seflor",
+    "rubro": "La venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "241",
+    "nombre": "Son felices en el cielo",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "242",
+    "nombre": "Nos aguardan los benditos",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "243",
+    "nombre": "Cuando suene la trompeta",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "244",
+    "nombre": "Patria, patria",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "245",
+    "nombre": "Patria, patria que irradias",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "246",
+    "nombre": "Ser elegidos, por Dios renacidos",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "247",
+    "nombre": "Ven alma mía, ven a la ciudad",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "248",
+    "nombre": "Siente·nostalgia el alma •",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "249",
+    "nombre": "Cuán bella es Sion",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "250",
+    "nombre": "Hay una tierra más allá",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "251",
+    "nombre": "Hacia la patria, en la otra orilla",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "252",
+    "nombre": "Yo percibo los sonidos de la patria celestial",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "253",
+    "nombre": "Tu palabra nos pennite",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "254",
+    "nombre": "El Padre ha dado la seiial",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "255",
+    "nombre": "De celeste país he leído .",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "256",
+    "nombre": "Donde nadie puede ver",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "257",
+    "nombre": "Hay en el cielo un dulce hogar",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "258",
+    "nombre": "Hogar de mis recuerdos",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "259",
+    "nombre": "Jerusalén, Jerusalén·",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "260",
+    "nombre": "Jerusalén, Jerusalén",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "261",
+    "nombre": "Pronto llegará la hora",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "262",
+    "nombre": "Cuando cesen los conflictos",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "263",
+    "nombre": "En la gloria eterna",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "264",
+    "nombre": "¡Levantaos!",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "265",
+    "nombre": "Oh ven, oh ven Rey Emanuel",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "266",
+    "nombre": "Cantan los ángeles",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "267",
+    "nombre": "Regocíjate, ¡oh! tierra",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "268",
+    "nombre": "¡Oh, Navidad!",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "269",
+    "nombre": "Noche santa",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "270",
+    "nombre": "A media noche resonó",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "271",
+    "nombre": "Pequeño pueblo de Belén",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "272",
+    "nombre": "Tú dejaste tu trono y corona por mí",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "273",
+    "nombre": "La virgen lava pañales",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "274",
+    "nombre": "Del alto cielo descendí",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "275",
+    "nombre": "Un niño nace en Belén",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "277",
+    "nombre": "Cristo ha nacido",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "278",
+    "nombre": "Ángeles en alta gloria",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "279",
+    "nombre": "Llegó nochebuena",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "280",
+    "nombre": "El gran amor de nuestro Dios",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "281",
+    "nombre": "Ding, dong, qué felicidad",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "282",
+    "nombre": "Cunita de arrullos",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "283",
+    "nombre": "Cantad con gozo y alegría",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "284",
+    "nombre": "Venid todos, venid a ver",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "285",
+    "nombre": "Belén, ciudad pequeña",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "287",
+    "nombre": "¡Oh, sí, venid pastores!",
+    "rubro": "Adviento - Navidad - Giro de año",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "288",
+    "nombre": "¡Hosanna!",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "289",
+    "nombre": "Nuestro Salvador nos llama",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "290",
+    "nombre": "¡Oh, bendito, Rey eterno!",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "293",
+    "nombre": "¡Oh, cuán inmenso amor!",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "294",
+    "nombre": "En una cruz, mi Salvador",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "295",
+    "nombre": "No hay otro mediador",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "296",
+    "nombre": "El Padre eterno al mundo dio su amor",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "297",
+    "nombre": "Gracias damos al Señor",
+    "rubro": "Domingo de Ramos - Viernes Santo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "298",
+    "nombre": "Yo sé que vive mi Jesús",
+    "rubro": "Pascua - Ascensión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "300",
+    "nombre": "Cristo glorioso la muerte ha vencido",
+    "rubro": "Pascua - Ascensión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "301",
+    "nombre": "¡Cristo ha resucitado!",
+    "rubro": "Pascua - Ascensión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "302",
+    "nombre": "La noche ya pasó",
+    "rubro": "Pascua - Ascensión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "303",
+    "nombre": "Cristo asciende envuelto en gloria",
+    "rubro": "Pascua - Ascensión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "304",
+    "nombre": "De gloria coronado está",
+    "rubro": "Pascua - Ascensión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "305",
+    "nombre": "¡Oh, Espíritu potente!",
+    "rubro": "Pentecostés",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "306",
+    "nombre": "Espíritu Santo",
+    "rubro": "Pentecostés",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "307",
+    "nombre": "Santo Espíritu, del cielo ven",
+    "rubro": "Pentecostés",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "309",
+    "nombre": "Con humildad, oh, buen Señor",
+    "rubro": "Día de arrepentimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "310",
+    "nombre": "Con mis faltas y pecados",
+    "rubro": "Día de arrepentimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "311",
+    "nombre": "Por tu amor me has elegido",
+    "rubro": "Santo Sellamiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "312",
+    "nombre": "Por gracia de Dios",
+    "rubro": "Santo Sellamiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "315",
+    "nombre": "¡Oh, pan del cielo!",
+    "rubro": "Santa Cena",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "316",
+    "nombre": "Adonde vaya, contigo yo deseo ir",
+    "rubro": "Confirmación - Juventud",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "317",
+    "nombre": "Haz tu voto hoy",
+    "rubro": "Confirmación - Juventud",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "318",
+    "nombre": "Un voto has dado al Señor",
+    "rubro": "Confirmación - Juventud",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "319",
+    "nombre": "Dos manos quieren hoy aquí",
+    "rubro": "Bendición nupcial - Aniversario de bodas",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "320",
+    "nombre": "¡Oh, Dios del cielo!",
+    "rubro": "Bendición nupcial - Aniversario de bodas",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "321",
+    "nombre": "Cuando tú actives",
+    "rubro": "Presentación de siervos - Ordenación ministerial -Inauguración de Iglesias",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "322",
+    "nombre": "Cuántas almas esperan de ti",
+    "rubro": "Presentación de siervos - Ordenación ministerial -Inauguración de Iglesias",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "323",
+    "nombre": "Alabad con alegría",
+    "rubro": "Presentación de siervos - Ordenación ministerial -Inauguración de Iglesias",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "324",
+    "nombre": "¡Qué bello es estar, Señor!",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "325",
+    "nombre": "En esta hora de amor",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "326",
+    "nombre": "Damos gracias a nuestro buen Padre",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "327",
+    "nombre": "Padre, necesito que te sientes a mi lado",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "328",
+    "nombre": "Alegría nuestra alma debe sentir",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "329",
+    "nombre": "Tu palabra ¡oh!, buen Señor",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "330",
+    "nombre": "Aquieto mi corazón",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "331",
+    "nombre": "Cuando habla un siervo a tu alma",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "332",
+    "nombre": "Oh, Padre amado, me encuentro aquí",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "333",
+    "nombre": "Cuán dichosas son las horas",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "334",
+    "nombre": "La palabra hoy sembrada",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "335",
+    "nombre": "Después, Señor, de haber tenido aquí",
+    "rubro": "Oficio Divino",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "336",
+    "nombre": "Pecador, Jesús te ama",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "337",
+    "nombre": "Oh, venid a mí",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "338",
+    "nombre": "De todas las palabras",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "340",
+    "nombre": "He visto yo un río de vida correr",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "341",
+    "nombre": "Oh, ven a la fuente de vida y salud",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "342",
+    "nombre": "Muy pronto ven a casa",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "343",
+    "nombre": "Si feliz quieres ser",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "344",
+    "nombre": "Ven pronto a casa",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "346",
+    "nombre": "La dulce voz del Redentor",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "347",
+    "nombre": "Vida eterna, promesa de Dios",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "348",
+    "nombre": "Llama el Señor",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "349",
+    "nombre": "Gracias y glorias al buen Salvador",
+    "rubro": "Invitación - Deseo de salvación",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "350",
+    "nombre": "Como Jesús quiero ser",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "351",
+    "nombre": "Enséñame, Maestro",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "352",
+    "nombre": "Señor, en todo tiempo",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "353",
+    "nombre": "Nunca permitas, Padre",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "355",
+    "nombre": "Padre de mis padres",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "356",
+    "nombre": "¿Por qué no ruegas al Padre?",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "357",
+    "nombre": "Bienaventurado es",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "358",
+    "nombre": "Tu vida, ¡oh Salvador!",
+    "rubro": "Santificación - Oración",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "359",
+    "nombre": "Divina luz alumbra hoy",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "360",
+    "nombre": "No desmayes nunca en la fe",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "361",
+    "nombre": "En este tiempo de temores",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "362",
+    "nombre": "Si hay valor y fe",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "363",
+    "nombre": "¿Quién nos apartará?",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "364",
+    "nombre": "Del amor divino",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "365",
+    "nombre": "Castillo fuerte es nuestro Dios",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "366",
+    "nombre": "El que venciere",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "367",
+    "nombre": "Cielos y tierra ya pasarán",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "368",
+    "nombre": "Quédate aquí",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "369",
+    "nombre": "Ten esperanza",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "370",
+    "nombre": "Hay alguien que escucha",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "372",
+    "nombre": "¡Oh Dios!, elevo mi oración",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "373",
+    "nombre": "Oh, en los brazos de Jesús",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "374",
+    "nombre": "Si Dios jamás se equivocó",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "375",
+    "nombre": "Mi mejor amigo es Jesús",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "377",
+    "nombre": "Mi canto eres tú",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "378",
+    "nombre": "Es Jesucristo mi Amigo mejor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "379",
+    "nombre": "Es Jesucristo mi alegría",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "380",
+    "nombre": "Paz maravillosa",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "381",
+    "nombre": "¿Por qué tu llanto?",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "382",
+    "nombre": "¡Qué consuelo, qué dulce paz!",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "383",
+    "nombre": "Yo sé que mi Padre lo sabe mejor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "384",
+    "nombre": "Señor, tú sabes que en ti confío",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "385",
+    "nombre": "En los días que vivimos",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "386",
+    "nombre": "Consuelo divino",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "387",
+    "nombre": "Si Jesús vive en mí",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "388",
+    "nombre": "Oh, Señor, te has entregado",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "389",
+    "nombre": "Si eres tú un hijo de la gracia",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "390",
+    "nombre": "Quien ama a Jesús de corazón",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "391",
+    "nombre": "Siempre amanece",
+    "rubro": "Amor a Dios - Amor al prójimo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "392",
+    "nombre": "Por gracia hoy tenemos",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "393",
+    "nombre": "En mí tu gracia sea",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "394",
+    "nombre": "Como un puro manantial",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "395",
+    "nombre": "Tan solo en tu gracia",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "396",
+    "nombre": "Tú, que en prados del cielo habitas",
+    "rubro": "Perdón - Gracia",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "397",
+    "nombre": "Con gozo y alegría",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "398",
+    "nombre": "Oh Dios, a quien adora",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "399",
+    "nombre": "Señor, hoy mi alma conmovida agradece",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "400",
+    "nombre": "¡Cuán grande es mi Dios!",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "401",
+    "nombre": "Señor, te agradecemos",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "402",
+    "nombre": "¡Cantad, cantad, oh, almas redimidas!",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "403",
+    "nombre": "El cielo alaba",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "406",
+    "nombre": "¡Gloria a Dios!",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "407",
+    "nombre": "Dios, tu bondad tan lejos va",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "408",
+    "nombre": "¡Gloria al Señor, al eterno Dios!",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "409",
+    "nombre": "Hermoso es alabarte",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "410",
+    "nombre": "Te alabamos, ¡oh Señor!",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "411",
+    "nombre": "¡Oh, Cristo bendito!",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "413",
+    "nombre": "Excelso Señor",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "414",
+    "nombre": "Eterno y fiel Jesús",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "418",
+    "nombre": "Eterno Dios, excelso Creador",
+    "rubro": "Alabanza - Agradecimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "420",
+    "nombre": "Es el tiempo de la siega",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "421",
+    "nombre": "En comunión estrecha",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "424",
+    "nombre": "Sal a sembrar, sembrador de paz",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "425",
+    "nombre": "Donde vaya Jesús",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "426",
+    "nombre": "Un solo corazón",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "427",
+    "nombre": "Me siento feliz de estar junto a ti",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "428",
+    "nombre": "En Jesucristo he encontrado",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "429",
+    "nombre": "La fuente de alegría",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "430",
+    "nombre": "De tu dulce Evangelio",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "432",
+    "nombre": "Es Cristo de su Iglesia",
+    "rubro": "Comunidad - Comunión",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "434",
+    "nombre": "Ven a Él",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "435",
+    "nombre": "Yo sigo fiel a Cristo",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "436",
+    "nombre": "Oh, enseñanza del Señor",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "437",
+    "nombre": "A ti, Señor, te damos alabanza",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "438",
+    "nombre": "Mi corazón se alegra",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "439",
+    "nombre": "¡Oh, cuán hermosa es la Obra del Señor!",
+    "rubro": "Envío - Seguimiento - Reconocimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "440",
+    "nombre": "Esperamos tu venida",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "442",
+    "nombre": "Grey, grey, ten fe en Jesús",
+    "rubro": "Promesa - Espera - Cumplimiento",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "443",
+    "nombre": "Señor, ven pronto te rogamos",
+    "rubro": "La Venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "444",
+    "nombre": "¡Oh! novia del Señor",
+    "rubro": "La Venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "445",
+    "nombre": "El día del Señor",
+    "rubro": "La Venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "446",
+    "nombre": "¡Oh, qué gran gozo!",
+    "rubro": "La Venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "447",
+    "nombre": "Escucha, Padre, este ruego",
+    "rubro": "La Venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "448",
+    "nombre": "¡Señor Jesús, ven pronto ya!",
+    "rubro": "La Venida de Cristo",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "449",
+    "nombre": "Muchas almas hoy parten al cielo",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "450",
+    "nombre": "Muy pronto este día vendrá",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "451",
+    "nombre": "Lejos allende los mares",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "452",
+    "nombre": "Amada patria celestial",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "453",
+    "nombre": "¿Cuándo será esa hora feliz?",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "454",
+    "nombre": "Oh, feliz resplandor",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "455",
+    "nombre": "¡Oh, ciudad celestial!",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "456",
+    "nombre": "Do noche no habrá jamás",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "457",
+    "nombre": "Estar con el Señor",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "458",
+    "nombre": "A Sion caminamos",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "459",
+    "nombre": "Bella patria en el cielo",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "460",
+    "nombre": "En la mansión do Cristo está",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "461",
+    "nombre": "Hogar eterno, celestial",
+    "rubro": "Difuntos - Vida eterna - Hogar celestial",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "462",
+    "nombre": "Que Jesús nos llene de gracia",
+    "rubro": "Bendición",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "463",
+    "nombre": "El Señor te bendiga y",
+    "rubro": "Bendición",
+    "temas": []
+  },
+  {
+    "himnario": "HC",
+    "numero": "464",
+    "nombre": "Di la palabra, Señor",
+    "rubro": "Fe - Confianza - Consuelo",
+    "temas": []
+  }
+]
