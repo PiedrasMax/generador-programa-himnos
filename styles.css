@@ -280,3 +280,34 @@ button:hover{ background:#111; }
   #searchInput { font-size: 16px; }
   .search-item { padding: 12px; }
 }
+
+/* ===== Acordeón de SD ===== */
+.sd-acc { border:1px solid #ccc; border-radius:8px; margin:14px 0; background:#fff; }
+.sd-acc > summary {
+  list-style:none; cursor:pointer; padding:12px 12px;
+  display:flex; align-items:center; gap:10px; background:#f7f7f7;
+  border-radius:8px 8px 0 0; font-size:17px; font-weight:600;
+}
+.sd-acc summary::-webkit-details-marker { display:none; }
+.sd-acc .sd-body { padding: 12px; }
+
+/* Punto de estado */
+.status-dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
+.status-ok   { background:#2e7d32; }  /* verde: todo cargado */
+.status-warn { background:#f9a825; }  /* ámbar: faltan algunos */
+.status-bad  { background:#c62828; }  /* rojo: ninguno */
+.sd-date { color:#333; font-weight:400; }
+
+/* ===== Acordeón de cada tipo de himno ===== */
+.himno-acc { border:1px solid #ddd; border-radius:6px; margin:10px 0; background:#fff; }
+.himno-acc > summary {
+  list-style:none; cursor:pointer; padding:12px 10px;
+  display:flex; gap:8px; align-items:center; font-size:16px;
+  background:#fafafa; border-radius:6px 6px 0 0;
+}
+.himno-acc[open] > summary { border-bottom:1px solid #eee; background:#f0f4f8; }
+.himno-acc summary::-webkit-details-marker { display:none; }
+.himno-acc .acc-body { padding:12px; }
+.himno-acc .sep { color:#999; }
+.himno-acc .resumen { color:#555; }
+@media (max-width: 768px){ .himno-acc > summary{ font-size:17px; padding:14px 12px; } }
