@@ -244,3 +244,70 @@ button:hover{ background:#111; }
     padding: 14px;
   }
 }
+
+/* ===== Topbar ===== */
+.topbar { display:flex; justify-content:flex-start; gap:10px; margin: 6px 0 12px 0; }
+.btn-primary { background:#337ab7; color:#fff; border:0; border-radius:4px; padding:10px 14px; }
+.btn-primary:hover { background:#286090; }
+
+/* ===== Overlay de búsqueda ===== */
+.search-panel { position: fixed; inset: 0; background: rgba(0,0,0,.25);
+  display: grid; place-items: center; z-index: 9999; }
+.search-panel.hidden { display: none; }
+
+.search-box { width: min(900px, 94vw); max-height: 86vh; background: #fff; border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2); padding: 12px; display: grid;
+  grid-template-rows: auto auto 1fr auto; gap: 10px; }
+
+.search-head { display: grid; grid-template-columns: 1fr auto; gap: 8px; }
+#searchInput { width: 100%; font-size: 18px; padding: 10px 12px; border: 1px solid #ddd; border-radius: 6px; }
+.search-close { border: 0; background: #eee; border-radius: 6px; padding: 8px 12px; cursor: pointer; }
+
+.search-filters { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+#searchRubro { flex: 1 1 220px; padding: 8px 10px; border: 1px solid #ddd; border-radius: 6px; }
+
+.search-results { overflow: auto; border: 1px solid #eee; border-radius: 6px; padding: 6px; background: #fafafa; }
+.search-item { display: grid; gap: 2px; padding: 10px; border-bottom: 1px solid #eee;
+  cursor: pointer; background: #fff; border-radius: 4px; }
+.search-item:hover { background: #f2f7ff; }
+.search-item-title { font-weight: 600; }
+.search-item-meta { font-size: 12px; color: #666; }
+
+.search-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.search-foot button { padding: 8px 12px; }
+
+@media (max-width: 768px) {
+  #searchInput { font-size: 16px; }
+  .search-item { padding: 12px; }
+}
+
+/* ===== Acordeón de SD ===== */
+.sd-acc { border:1px solid #ccc; border-radius:8px; margin:14px 0; background:#fff; }
+.sd-acc > summary {
+  list-style:none; cursor:pointer; padding:12px 12px;
+  display:flex; align-items:center; gap:10px; background:#f7f7f7;
+  border-radius:8px 8px 0 0; font-size:17px; font-weight:600;
+}
+.sd-acc summary::-webkit-details-marker { display:none; }
+.sd-acc .sd-body { padding: 12px; }
+
+/* Punto de estado */
+.status-dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
+.status-ok   { background:#2e7d32; }  /* verde: todo cargado */
+.status-warn { background:#f9a825; }  /* ámbar: faltan algunos */
+.status-bad  { background:#c62828; }  /* rojo: ninguno */
+.sd-date { color:#333; font-weight:400; }
+
+/* ===== Acordeón de cada tipo de himno ===== */
+.himno-acc { border:1px solid #ddd; border-radius:6px; margin:10px 0; background:#fff; }
+.himno-acc > summary {
+  list-style:none; cursor:pointer; padding:12px 10px;
+  display:flex; gap:8px; align-items:center; font-size:16px;
+  background:#fafafa; border-radius:6px 6px 0 0;
+}
+.himno-acc[open] > summary { border-bottom:1px solid #eee; background:#f0f4f8; }
+.himno-acc summary::-webkit-details-marker { display:none; }
+.himno-acc .acc-body { padding:12px; }
+.himno-acc .sep { color:#999; }
+.himno-acc .resumen { color:#555; }
+@media (max-width: 768px){ .himno-acc > summary{ font-size:17px; padding:14px 12px; } }
