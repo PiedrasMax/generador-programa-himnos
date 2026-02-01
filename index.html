@@ -54,14 +54,26 @@
     </p>
     </div>
 
+    <!-- Área operativa que manda en la pantalla -->
+    <div class="app-container">
+      <div class="btn-row" style="margin: 10px 0 16px 0; display:flex; gap:8px; flex-wrap:wrap;">
+        <button id="modoColaborador">Modo Colaborador</button>
+        <button id="modoMaestro">Modo Maestro</button>
+      </div>
     
-    <button id="modoColaborador">Modo Colaborador</button>
-    <button id="modoMaestro">Modo Maestro</button>
-
+      <!-- Rejilla de módulos: en Maestro podés activar .two-cols por JS si querés dos paneles -->
+      <div class="module-grid" id="appGrid">
+        <div id="colaborador" class="hidden"></div>
+        <div id="maestro" class="hidden"></div>
+      </div>
     
-    <div id="colaborador" class="hidden"></div>
-    <div id="maestro" class="hidden"></div>
-
+      <!-- Acciones importantes “sticky” en móvil (opcional) -->
+      <div class="btn-row btn-row-sticky" id="stickyActions" style="display:none;">
+        <button id="copiar">Copiar texto</button>
+        <button id="exportarPDF">Exportar PDF</button>
+      </div>
+    </div>
+        
     <!-- jsPDF (cliente) -->
     <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.5.23/dist/jspdf.plugin.autotable.min.js"></script>
@@ -69,4 +81,5 @@
     <script src="app.js"></script>
 
 </body>
+
 </html>
