@@ -200,3 +200,47 @@ button:hover{ background:#111; }
   .manual-collapsible.open .manual-body{ display:block; }
   .manual-toggle{ display:inline-block; margin-top:8px; font-size:14px; color:#337ab7; cursor:pointer; text-decoration:underline; }
 }
+
+/* ===== FORMULARIOS MOBILE FRIENDLY ===== */
+@media (max-width: 768px) {
+
+  /* Cada campo de himno debe ocupar todo el ancho */
+  .campo-himno {
+    width: 100%;
+  }
+
+  /* Inputs y selects deben ocupar 100% */
+  .campo-himno input[type="text"],
+  .campo-himno input[type="date"],
+  .campo-himno select,
+  .campo-himno .numero,
+  .campo-himno .numeroSel {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;        /* importante para evitar zoom automático */
+    padding: 12px 10px;
+  }
+
+  /* El label (Himnario, Número) va arriba en móvil */
+  .campo-himno label.inline {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  /* Las columnas de toggles (Usar lista / estrofas) deben saltar líneas */
+  .field-toggles {
+    flex-direction: column !important;
+    align-items: flex-start;
+    gap: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  button {
+    width: 100%;
+    font-size: 18px;
+    padding: 14px;
+  }
+}
