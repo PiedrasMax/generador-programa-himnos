@@ -67,6 +67,7 @@ document.querySelector("#modoColaborador").onclick = async () => {
   if (!catalogLoaded) setBanner("⚠️ El catálogo no se cargó. Abrí la app desde un servidor (Live Server / http-server / SharePoint / GitHub Pages) y no con doble clic del archivo.", true);
   else setBanner("", false);
   show("#colaborador");
+  document.getElementById('appGrid')?.classList.remove('two-cols');
   cargarFormularioColaborador();
 };
 document.querySelector("#modoMaestro").onclick = async () => {
@@ -74,6 +75,7 @@ document.querySelector("#modoMaestro").onclick = async () => {
   if (!catalogLoaded) setBanner("⚠️ El catálogo no se cargó. Abrí la app desde un servidor (Live Server / http-server / SharePoint / GitHub Pages).", true);
   else setBanner("", false);
   show("#maestro");
+  document.getElementById('appGrid')?.classList.add('two-cols');
   cargarMaestro();
 };
 
@@ -982,4 +984,5 @@ function editSD(idx) {
   };
 
   document.querySelector("#btnCancelarSD").onclick = () => { ed.innerHTML = ""; };
+
 }
