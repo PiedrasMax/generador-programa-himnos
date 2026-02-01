@@ -65,6 +65,10 @@
         <button id="modoColaborador">Modo Colaborador</button>
         <button id="modoMaestro">Modo Maestro</button>
       </div>
+
+        <div class="topbar">
+          <button id="btnSearchGlobal" class="btn-primary">Buscar himnos ( / )</button>
+        </div>
     
       <!-- Rejilla de módulos: en Maestro podés activar .two-cols por JS si querés dos paneles -->
       <div class="module-grid" id="appGrid">
@@ -83,9 +87,41 @@
     <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.5.23/dist/jspdf.plugin.autotable.min.js"></script>
 
+    <!-- Panel de Búsqueda de Himnos (global) -->
+    <div id="searchPanel" class="search-panel hidden" role="dialog" aria-modal="true">
+      <div class="search-box">
+        <div class="search-head">
+          <input id="searchInput" type="text"
+                 placeholder="Buscar por número, nombre, rubro o tema (atajo: /)"
+                 autocomplete="off" />
+          <button id="searchClose" class="search-close" title="Cerrar">✕</button>
+        </div>
+    
+        <div class="search-filters">
+          <label><input type="checkbox" class="flt-him" value="HR" checked> HR</label>
+          <label><input type="checkbox" class="flt-him" value="HI" checked> HI</label>
+          <label><input type="checkbox" class="flt-him" value="HC" checked> HC</label>
+          <input id="searchRubro" type="text" placeholder="Filtrar por rubro (contiene…)" />
+        </div>
+    
+        <div id="searchResults" class="search-results" role="listbox" aria-label="Resultados de himnos"></div>
+    
+        <div class="search-foot">
+          <label class="inline">
+            <input type="checkbox" id="searchAskStanzas"> Preguntar estrofas al insertar
+          </label>
+          <label class="inline">
+            <input type="checkbox" id="searchInsertIntoLast"> Insertar en el último campo activo
+          </label>
+          <button id="searchCancel">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
     <script src="./app.js?v=20260203"></script>
 
 </body>
 
 </html>
+
 
