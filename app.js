@@ -54,6 +54,125 @@ function setBanner(msg, show=true) {
   else { b.textContent = ""; b.classList.add("hidden"); }
 }
 
+// ====== BUSCADOR GLOBAL (solo copia de NÚMERO) ======
+let searchIndex = []; // [{himnario, numero, nombre, rubro, temas[], keyN}]
+const HORDER = { HR:0, HI:1, HC:2 };
+const norm = (s) => (s||"").normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
+const natkey = (s) => (String(s).match(/\d+|[^\d]+/g)||[]).map(t => /^\d+$/.test(t)? Number(t): t.toLowerCase());
+
+function buildSearchIndex() {
+  searchIndex = catalogo.map(h => {
+    const temasTxt = Array.isArray(h.temas) ? h.temas.join(' ') : (h.temas||'');
+    const keyN = norm(`${h.himnario} ${h.numero} ${h.nombre||''} ${h.rubro||''} ${temasTxt}`);
+    return { himnario: h.himnario, numero: String(h.numero),
+             nombre: h.nombre||'', rubro: h.rubro||'', temas: h.temas||[], keyN };
+  });
+}
+catalogoReady.then(buildSearchIndex);
+
+function openSearchGlobal() {
+  const p = document.getElementById('searchPanel');
+  p.classList.remove('hidden');
+  document.getElementById('searchInput').value = "";
+  document.getElementById('searchRubro').value = "";
+  document.querySelectorAll('.flt-him').forEach(cb => cb.checked = true);
+  renderSearchResults([]);
+  setTimeout(()=>document.getElementById('searchInput').focus(), 30);
+}
+function closeSearchGlobal() {
+  document.getElementById('searchPanel').classList.add('hidden');
+}
+document.getElementById('btnSearchGlobal')?.addEventListener('click', openSearchGlobal);
+document.getElementById('searchClose')?.addEventListener('click', closeSearchGlobal);
+document.getElementById('searchCancel')?.addEventListener('click', closeSearchGlobal);
+
+// Atajo "/" (en desktop) si no estás escribiendo
+document.addEventListener('keydown', (e) => {
+  if (e.key === '/' && !e.ctrlKey && !e.metaKey) {
+    const t = (e.target.tagName||'').toLowerCase();
+    if (t!=='input' && t!=='textarea' && document.getElementById('searchPanel').classList.contains('hidden')) {
+      e.preventDefault(); openSearchGlobal();
+    }
+  } else if (e.key === 'Escape') {
+    closeSearchGlobal();
+  }
+});
+
+function runSearchGlobal() {
+  const q   = norm(document.getElementById('searchInput').value);
+  const rub = norm(document.getElementById('searchRubro').value);
+  const himSet = new Set(Array.from(document.querySelectorAll('.flt-him'))
+                        .filter(cb => cb.checked).map(cb => cb.value));
+
+  if (!q && !rub) { renderSearchResults([]); return; }
+
+  const top = [];
+  for (const h of searchIndex) {
+    if (!himSet.has(h.himnario)) continue;
+    if (rub && !h.keyN.includes(rub)) continue;
+
+    let s = 0;
+    // exacto "HR 119"
+    if (q) {
+      const m = q.match(/^(hr|hi|hc)\s*([0-9A-Za-z]+)$/i);
+      if (m && h.himnario===m[1].toUpperCase() && h.numero.toUpperCase()===m[2].toUpperCase()) s += 2000;
+
+      // prefijo / subcadena en nombre
+      if (h.nombre && norm(h.nombre).startsWith(q)) s += 300;
+      if (h.nombre && norm(h.nombre).includes(q))  s += 180;
+
+      // rubro / temas
+      if (h.rubro && norm(h.rubro).includes(q))    s += 120;
+      if (h.temas && h.temas.length && norm(h.temas.join(' ')).includes(q)) s += 80;
+
+      // AND de tokens
+      const qTokens = q.split(/\s+/).filter(Boolean);
+      if (qTokens.length && qTokens.every(t => h.keyN.includes(t))) s += 100;
+    }
+    if (s>0 || (!q && rub)) top.push({s,h});
+  }
+
+  top.sort((a,b)=>
+    b.s - a.s ||
+    HORDER[a.h.himnario] - HORDER[b.h.himnario] ||
+    natkey(a.h.numero).toString().localeCompare(natkey(b.h.numero).toString())
+  );
+
+  renderSearchResults(top.slice(0,60).map(x=>x.h));
+}
+['searchInput','searchRubro'].forEach(id=>{
+  document.getElementById(id)?.addEventListener('input', runSearchGlobal);
+});
+document.querySelectorAll('.flt-him').forEach(cb=>cb.addEventListener('change', runSearchGlobal));
+
+function renderSearchResults(items) {
+  const box = document.getElementById('searchResults');
+  if (!items.length) { box.innerHTML = '<div style="padding:8px;color:#666;">Escribí para buscar…</div>'; return; }
+
+  box.innerHTML = items.map(h => {
+    const temas = (h.temas && h.temas.length) ? ` · Temas: ${h.temas.join(', ')}` : '';
+    return `
+      <div class="search-item" data-num="${h.numero}">
+        <div class="search-item-title">${h.himnario} ${h.numero} — ${h.nombre}</div>
+        <div class="search-item-meta">${h.rubro||''}${temas}</div>
+      </div>
+    `;
+  }).join('');
+
+  Array.from(box.querySelectorAll('.search-item')).forEach(el=>{
+    el.onclick = async ()=>{
+      const num = el.dataset.num;
+      try {
+        await navigator.clipboard.writeText(num);
+        alert(`Número copiado: ${num}`);
+      } catch {
+        alert(`Número: ${num}`);
+      }
+      closeSearchGlobal();
+    };
+  });
+}
+
 // ========================
 // Mostrar modos
 // ========================
@@ -86,66 +205,83 @@ function cargarFormularioColaborador() {
   const div = document.querySelector("#colaborador");
   div.innerHTML = `
     <h2>Modo Colaborador</h2>
-    <button id="agregarSD">Agregar Servicio Divino</button>
+
     <div id="listaSD"></div>
-    <button id="copiar">Copiar texto para WhatsApp</button>
-    <textarea id="salida" rows="10"></textarea>
+
+    <div class="btn-row" style="margin-top:12px; gap:8px; flex-wrap:wrap;">
+      <button id="agregarSD">Agregar Servicio Divino</button>
+    </div>
+
+    <div class="btn-row" style="margin-top:8px; gap:8px; flex-wrap:wrap;">
+      <button id="copiar">Copiar texto para WhatsApp</button>
+    </div>
+
+    <textarea id="salida" rows="10" style="width:100%;"></textarea>
   `;
-  document.querySelector("#agregarSD").onclick = agregarSD;
-  document.querySelector("#copiar").onclick = copiarTexto;
-  agregarSD(); // primer SD
+  document.getElementById("agregarSD").onclick = agregarSD;
+  document.getElementById("copiar").onclick = copiarTexto;
+
+  agregarSD(); // primer SD por defecto
 }
 
 let sdCount = 0;
 
 function agregarSD() {
   sdCount++;
-  const cont = document.querySelector("#listaSD");
+  const cont = document.getElementById("listaSD");
   const id = `sd${sdCount}`;
 
-  cont.insertAdjacentHTML("beforeend", `
-    <div class="sd-block" id="${id}">
-      <h3>Servicio Divino ${sdCount}</h3>
-      Fecha: <input type="date" class="fecha"><br>
-      <div class="sd-titulo"></div>
+  cont.insertAdjacentHTML('beforeend', `
+    <details class="sd-acc" id="${id}" open>
+      <summary>
+        <span class="status-dot status-bad" title="Estado de campos primarios"></span>
+        <span><b>Servicio Divino ${sdCount}</b> — <span class="sd-date">sin fecha</span></span>
+      </summary>
+      <div class="sd-body">
 
-      ${campoHimno("Previo 1")}
-      ${campoHimno("Inicio")}
-      ${campoHimno("Texto")}
-
-      ${campoHimno("Cambio de Cargo")}
-      ${campoHimno("Arrepentimiento", true /* filtro rubro */)}
-      ${campoHimno("Santa Cena", true /* filtro rubro */)}
-      ${campoHimno("Final Comunidad")}
-      ${campoHimno("Final Coro")}
-      ${campoHimno("Descongregación 1")}
-
-      
-        <div class="toggle-row">
-            <label class="inline">
-            <input type="checkbox" class="chkEspecial">
-            Servicio Divino especial / himnos eventuales
-            </label>
-            <div class="small">
-            Activalo si necesitás Previo 2, Lectura Bíblica, Especiales o Descongregación 2.
-            </div>
+        <div style="margin-bottom:8px;">
+          Fecha: <input type="date" class="fecha">
         </div>
 
-        <div class="opcionales hidden">
+        ${campoHimno("Previo 1")}
+        ${campoHimno("Inicio")}
+        ${campoHimno("Texto")}
+        ${campoHimno("Cambio de Cargo")}
+        ${campoHimno("Arrepentimiento", true)}
+        ${campoHimno("Santa Cena", true)}
+        ${campoHimno("Final Comunidad")}
+        ${campoHimno("Final Coro")}
+        ${campoHimno("Descongregación 1")}
+
+        <details class="himno-acc">
+          <summary><b>Opcionales</b></summary>
+          <div class="acc-body">
             ${campoHimno("Previo 2")}
-            ${campoHimno("Lectura Bíblica", true /* si mañana querés filtrar por rubro */)}
+            ${campoHimno("Lectura Bíblica", true)}
             ${campoHimno("Especial 1")}
             ${campoHimno("Descongregación 2")}
-        </div>
+          </div>
+        </details>
 
-
-    </div>
+      </div>
+    </details>
   `);
 
-  const bloque = document.querySelector(`#${id}`);
-  wireFechaTitulo(bloque);
-  wireOpcionalesToggle(bloque);
+  const bloque = document.getElementById(id);
+
+  // Fecha -> actualizar cabecera
+  const fecha = bloque.querySelector('.fecha');
+  fecha.addEventListener('change', ()=>updateSDHeader(bloque));
+  updateSDHeader(bloque);
+
+  // Cablear pickers
   wireHimnoPickers(bloque);
+
+  // Cada cambio en himnos -> actualizar estado
+  bloque.querySelectorAll('.campo-himno .himnario, .campo-himno .numero, .campo-himno .numeroSel').forEach(el=>{
+    el.addEventListener('change', ()=>updateSDHeader(bloque));
+    el.addEventListener('input',  ()=>updateSDHeader(bloque));
+  });
 }
 
 function campoHimno(label, conFiltro = false) {
@@ -158,55 +294,52 @@ function campoHimno(label, conFiltro = false) {
   const idDatalist = `dl_${baseId}`;
   const idSelect = `sel_${baseId}`;
 
+  // Resumen que se actualiza: "· sin seleccionar" / "HR 23 — Nombre"
+  const resumen = `<span class="resumen">· sin seleccionar</span>`;
+
   return `
-    <div class="campo-himno" data-label="${label}">
-      <b>${label}</b>
-      <div class="field-toggles">
-        ${filtroHtml}
-        <label class="inline">
-          <input type="checkbox" class="chkUsarLista"> Usar lista para “Número”
-        </label>
-        <label class="inline">
-          <input type="checkbox" class="chkEstrofas"> ¿Se detallan estrofas?
-        </label>
-        <input type="text" class="estrofas hidden" placeholder="1, 2, 3" style="max-width:160px;">
-      </div>
+    <details class="himno-acc campo-himno" data-label="${label}">
+      <summary>
+        <b>${label}</b> <span class="sep">—</span> ${resumen}
+      </summary>
 
-      <div>
-        <label class="inline">
-          <span>Himnario:</span>
-          <select class="himnario">
-            <option value="">—</option>
-            <option>HR</option>
-            <option>HI</option>
-            <option>HC</option>
-          </select>
-        </label>
-      </div>
+      <div class="acc-body">
+        <div class="field-toggles">
+          ${filtroHtml}
+          <label class="inline"><input type="checkbox" class="chkUsarLista"> Usar lista para “Número”</label>
+          <label class="inline"><input type="checkbox" class="chkEstrofas"> ¿Se detallan estrofas?</label>
+          <input type="text" class="estrofas hidden" placeholder="1, 2, 3" style="max-width:160px;">
+        </div>
 
-      <div class="mtd-escribir">
-        <label class="inline">
-          <span>Número:</span>
-          <input class="numero" list="${idDatalist}" placeholder="Ej.: 119" style="min-width:120px;" />
-        </label>
-        <datalist id="${idDatalist}"></datalist>
-      </div>
+        <div>
+          <label class="inline"><span>Himnario:</span>
+            <select class="himnario">
+              <option value="">—</option><option>HR</option><option>HI</option><option>HC</option>
+            </select>
+          </label>
+        </div>
 
-      <div class="mtd-lista hidden">
-        <label class="inline">
-          <span>Número:</span>
-          <select class="numeroSel" id="${idSelect}">
-            <option value="">—</option>
-          </select>
-        </label>
-      </div>
+        <div class="mtd-escribir">
+          <label class="inline"><span>Número:</span>
+            <input class="numero" list="${idDatalist}" placeholder="Ej.: 119" style="min-width:120px;" />
+          </label>
+          <datalist id="${idDatalist}"></datalist>
+        </div>
 
-      <div class="info">
-        <span class="nombre"></span>
-        <div class="meta"></div>
+        <div class="mtd-lista hidden">
+          <label class="inline"><span>Número:</span>
+            <select class="numeroSel" id="${idSelect}">
+              <option value="">—</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="info">
+          <span class="nombre"></span>
+          <div class="meta"></div>
+        </div>
       </div>
-      <br>
-    </div>
+    </details>
   `;
 }
 
@@ -314,6 +447,7 @@ function wireHimnoPickers(bloque) {
             numSel.appendChild(opt2);
           }
         });
+      actualizarResumen(campo);
     }
 
     // Mostrar nombre/rubro/temas según método activo
@@ -322,7 +456,7 @@ function wireHimnoPickers(bloque) {
       const usarLista = !!(chkUsarLista && chkUsarLista.checked);
       const n  = usarLista ? (numSel.value||"").trim()
                            : (numInput.value||"").trim();
-
+      
       const obj = getHimno(h, n);
       if (obj) {
         nombre.textContent = obj.nombre;
@@ -332,7 +466,19 @@ function wireHimnoPickers(bloque) {
         nombre.textContent = "";
         meta.textContent = "";
       }
+      actualizarResumen(campo);
     }
+
+    function actualizarResumen(campo) {
+      const resumen = campo.querySelector('.resumen');
+      const h = (campo.querySelector('.himnario')?.value || '').toUpperCase();
+      const n = (campo.querySelector('.numero')?.value || '').trim();
+      const obj = getHimno(h, n);
+      if (h && n && obj) resumen.textContent = `${h} ${n} — ${obj.nombre}`;
+      else if (h && n)   resumen.textContent = `${h} ${n}`;
+      else resumen.textContent = '· sin seleccionar';
+    }
+         
 
     // Eventos
     if (himSel)        himSel.addEventListener("change", poblarListas);
@@ -349,6 +495,48 @@ function wireHimnoPickers(bloque) {
     // Estado inicial
     toggleMetodo();
   });
+}
+
+// Campos primarios para estado
+const PRIMARY_ROLES = [
+  "Previo 1","Inicio","Texto","Cambio de Cargo",
+  "Arrepentimiento","Santa Cena","Final Comunidad","Final Coro","Descongregación 1"
+];
+
+function isCampoCompleto(campo) {
+  const h = (campo.querySelector('.himnario')?.value || '').trim();
+  const n = (campo.querySelector('.numero')?.value || '').trim();
+  return !!(h && n);
+}
+
+function computeSDStatus(bloque) {
+  let total = 0, filled = 0;
+  PRIMARY_ROLES.forEach(lbl => {
+    const c = Array.from(bloque.querySelectorAll('.campo-himno')).find(x => x.dataset.label === lbl);
+    if (c) { total++; if (isCampoCompleto(c)) filled++; }
+  });
+  return { total, filled };
+}
+
+function updateSDHeader(bloque) {
+  // Fecha
+  const f = bloque.querySelector('.fecha')?.value || "";
+  const out = bloque.querySelector('.sd-date');
+  if (out) {
+    if (!f) out.textContent = "sin fecha";
+    else {
+      const [Y,M,D] = f.split('-'); out.textContent = `${D}/${M}`;
+    }
+  }
+  // Estado
+  const st = computeSDStatus(bloque);
+  const dot = bloque.querySelector('.status-dot');
+  if (dot) {
+    dot.classList.remove('status-ok','status-warn','status-bad');
+    if (st.filled===0) dot.classList.add('status-bad');
+    else if (st.filled===st.total) dot.classList.add('status-ok');
+    else dot.classList.add('status-warn');
+  }
 }
 
 // ========================
@@ -986,3 +1174,4 @@ function editSD(idx) {
   document.querySelector("#btnCancelarSD").onclick = () => { ed.innerHTML = ""; };
 
 }
+
