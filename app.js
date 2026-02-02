@@ -373,27 +373,25 @@ function wireOpcionalesToggle(bloque) {
 
 function wireHimnoPickers(bloque) {
   bloque.querySelectorAll(".campo-himno").forEach(campo => {
-    const himSel    = campo.querySelector(".himnario");
-    const numInput  = campo.querySelector(".numero");     // método escribir
-    const dataList  = campo.querySelector("datalist");
-    const numSel    = campo.querySelector(".numeroSel");  // método lista
+    const himSel      = campo.querySelector(".himnario");
+    const numInput    = campo.querySelector(".numero");      // método escribir
+    const dataList    = campo.querySelector("datalist");
+    const numSel      = campo.querySelector(".numeroSel");   // método lista
     const mtdEscribir = campo.querySelector(".mtd-escribir");
     const mtdLista    = campo.querySelector(".mtd-lista");
-    const chkFiltro = campo.querySelector(".chkFiltro");
-    const chkUsarLista = campo.querySelector(".chkUsarLista");
-    const nombre   = campo.querySelector(".nombre");
-    const meta     = campo.querySelector(".meta");
-    
+    const chkFiltro   = campo.querySelector(".chkFiltro");
+    const chkUsarLista= campo.querySelector(".chkUsarLista");
+    const nombre      = campo.querySelector(".nombre");
+    const meta        = campo.querySelector(".meta");
     const chkEstrofas = campo.querySelector(".chkEstrofas");
     const inEstrofas  = campo.querySelector(".estrofas");
 
     function toggleEstrofas() {
-    if (!inEstrofas) return;
-    inEstrofas.classList.toggle("hidden", !(chkEstrofas && chkEstrofas.checked));
+      if (!inEstrofas) return;
+      inEstrofas.classList.toggle("hidden", !(chkEstrofas && chkEstrofas.checked));
     }
     if (chkEstrofas) chkEstrofas.addEventListener("change", toggleEstrofas);
     toggleEstrofas();
-
 
     // Mostrar un método u otro
     function toggleMetodo() {
@@ -401,31 +399,28 @@ function wireHimnoPickers(bloque) {
       if (usarLista) {
         mtdEscribir.classList.add("hidden");
         mtdLista.classList.remove("hidden");
-        // Cuando cambie el método, refrescamos nombre en base al valor actual del select
-        refrescarNombre();
       } else {
         mtdLista.classList.add("hidden");
         mtdEscribir.classList.remove("hidden");
-        // Idem para el input
-        refrescarNombre();
       }
+      refrescarNombre();               // *** refrescar siempre tras cambiar el método
     }
 
     // Llenar listas (datalist + select) según himnario y filtro
     function poblarListas() {
       if (dataList) dataList.innerHTML = "";
-      if (numSel)   numSel.innerHTML = `<option value="">—</option>`;
+      if (numSel)   numSel.innerHTML   = `<option value="">—</option>`;
       nombre.textContent = ""; meta.textContent = "";
 
       const him = himSel.value;
-      if (!him || !catalogLoaded) return;
+      if (!him || !catalogLoaded) { actualizarResumen(campo); return; }
 
       const rol = (campo.dataset.label || "").toLowerCase();
       let rubroEsperado = "";
       if (chkFiltro && chkFiltro.checked) {
-        if (rol.includes("santa cena"))        rubroEsperado = "santa cena";
-        if (rol.includes("arrepentimiento"))   rubroEsperado = "arrepentimiento";
-        if (rol.includes("lectura bíblica"))   rubroEsperado = ""; // cambiar si mañana querés filtrar
+        if (rol.includes("santa cena"))      rubroEsperado = "santa cena";
+        if (rol.includes("arrepentimiento")) rubroEsperado = "arrepentimiento";
+        if (rol.includes("lectura bíblica")) rubroEsperado = ""; // ajustar si un día querés filtrar
       }
 
       const lista = rubroEsperado
@@ -447,16 +442,15 @@ function wireHimnoPickers(bloque) {
             numSel.appendChild(opt2);
           }
         });
-      actualizarResumen(campo);
+
+      actualizarResumen(campo);        // *** muestra “sin seleccionar” si no hay número aún
     }
 
-    // Mostrar nombre/rubro/temas según método activo
+    // Mostrar nombre/rubro/temas según el método activo
     function refrescarNombre() {
-      const h  = (himSel.value||"").toUpperCase();
-      const usarLista = !!(chkUsarLista && chkUsarLista.checked);
-      const n  = usarLista ? (numSel.value||"").trim()
-                           : (numInput.value||"").trim();
-      
+      const h = (himSel.value || "").toUpperCase();
+      const n = getNumeroCampo(campo);     // *** único punto de lectura del número
+
       const obj = getHimno(h, n);
       if (obj) {
         nombre.textContent = obj.nombre;
@@ -466,23 +460,12 @@ function wireHimnoPickers(bloque) {
         nombre.textContent = "";
         meta.textContent = "";
       }
-      actualizarResumen(campo);
+      actualizarResumen(campo);        // *** refresca el summary con input o select
     }
-
-    function actualizarResumen(campo) {
-      const resumen = campo.querySelector('.resumen');
-      const h = (campo.querySelector('.himnario')?.value || '').toUpperCase();
-      const n = (campo.querySelector('.numero')?.value || '').trim();
-      const obj = getHimno(h, n);
-      if (h && n && obj) resumen.textContent = `${h} ${n} — ${obj.nombre}`;
-      else if (h && n)   resumen.textContent = `${h} ${n}`;
-      else resumen.textContent = '· sin seleccionar';
-    }
-         
 
     // Eventos
-    if (himSel)        himSel.addEventListener("change", poblarListas);
-    if (chkFiltro)     chkFiltro.addEventListener("change", poblarListas);
+    if (himSel)        himSel.addEventListener("change",  () => { poblarListas(); refrescarNombre(); }); // ***
+    if (chkFiltro)     chkFiltro.addEventListener("change",() => { poblarListas(); refrescarNombre(); }); // ***
     if (chkUsarLista)  chkUsarLista.addEventListener("change", toggleMetodo);
 
     if (numInput) {
@@ -493,7 +476,7 @@ function wireHimnoPickers(bloque) {
     if (numSel)   numSel.addEventListener("change", refrescarNombre);
 
     // Estado inicial
-    toggleMetodo();
+    toggleMetodo(); // muestra el método correcto y ya refresca
   });
 }
 
@@ -539,18 +522,45 @@ function updateSDHeader(bloque) {
   }
 }
 
+// Refresca el resumen del <summary> usando himnario + número y (si existe) el nombre
+function actualizarResumen(campo) {
+  const resumen = campo.querySelector('.resumen');
+  if (!resumen) return;
+
+  const h = (campo.querySelector('.himnario')?.value || '').toUpperCase();
+  const n = getNumeroCampo(campo);                 // *** ahora toma también el select
+  const obj = getHimno(h, n);
+
+  if (h && n && obj)      resumen.textContent = `${h} ${n} — ${obj.nombre}`;
+  else if (h && n)        resumen.textContent = `${h} ${n}`;
+  else                    resumen.textContent = '· sin seleccionar';
+}
+
 // ========================
 // Copiar texto (Colaborador)
 // ========================
+// Helper reutilizable: obtiene el número según el método activo (escribir vs lista)
+function getNumeroCampo(campo) {
+  const usarLista = campo.querySelector(".chkUsarLista")?.checked;
+  return usarLista
+    ? (campo.querySelector(".numeroSel")?.value || "").trim()
+    : (campo.querySelector(".numero")?.value    || "").trim();
+}
+
 function copiarTexto() {
   let salida = "";
-  const bloques = document.querySelectorAll(".sd-block");
+  const bloques = document.querySelectorAll(".sd-acc"); // <-- acordeón SD
+
+  if (!bloques.length) {
+    alert("No hay Servicios Divinos cargados.");
+    return;
+  }
 
   bloques.forEach(b => {
     salida += "#SD\n";
-    salida += "Fecha: " + (b.querySelector(".fecha").value || "") + "\n";
+    const fecha = b.querySelector(".fecha")?.value || "";
+    salida += "Fecha: " + fecha + "\n";
 
-    // Orden final (incluye Lectura Bíblica)
     const orden = [
       "Previo 1",
       "Previo 2",
@@ -573,12 +583,11 @@ function copiarTexto() {
       const campo = Array.from(campos).find(x => x.dataset.label === lab);
       if (!campo) { salida += `${lab}: —\n`; return; }
 
-      const h = (campo.querySelector(".himnario")?.value || "");
-      const n = (campo.querySelector(".numero")?.value || "").trim();
+      const h = (campo.querySelector(".himnario")?.value || "").toUpperCase();
+      const n = getNumeroCampo(campo);
 
-      // NUEVO: estrofas
       const est = (campo.querySelector(".estrofas")?.value || "").trim();
-      const estFmt = est ? " " + est.replace(/\b(\d+)\b/g, "$1ª") : ""; // 1 -> 1ª
+      const estFmt = est ? " " + est.replace(/\b(\d+)\b/g, "$1ª") : "";
 
       if (!h || !n) {
         salida += `${lab}: —\n`;
@@ -593,10 +602,13 @@ function copiarTexto() {
     salida += "\n";
   });
 
+  // Mostrar debajo + copiar
   const out = document.querySelector("#salida");
-  out.value = salida;
-  navigator.clipboard.writeText(salida);
-  alert("Texto copiado. Enviá tal cual al hermano encargado.");
+  if (out) out.value = salida;
+
+  navigator.clipboard.writeText(salida)
+    .then(()=> alert("Texto copiado. Enviá tal cual al hermano encargado."))
+    .catch(()=> alert("Texto generado (no se pudo copiar automáticamente)."));
 }
 
 // ========================
@@ -1174,4 +1186,5 @@ function editSD(idx) {
   document.querySelector("#btnCancelarSD").onclick = () => { ed.innerHTML = ""; };
 
 }
+
 
