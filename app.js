@@ -769,7 +769,7 @@ function getPeriodoFromServicios(servicios) {
   for (const sd of (servicios || [])) {
     const f = (sd?.fecha || "").trim();
     const m = f.match(/^(\d{4})-(\d{2})-(\d{2})$/);
-    if (m) return ${m[2]}-${m[1]};`// MM-AAAA
+    if (m) return `${m[2]}-${m[1]};`// MM-AAAA
   }
   return ""; // si no hay ninguna fecha válida
 }
@@ -1222,6 +1222,7 @@ function editSD(idx) {
   document.querySelector("#btnCancelarSD").onclick = () => { ed.innerHTML = ""; };
 
 }
+
 
 
 
