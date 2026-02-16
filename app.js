@@ -975,8 +975,10 @@ async function exportarPDF() {
   };
 
   // --- Cuerpo: dos filas por SD (R1 principal con objetos {ref,name}; R2 opcionales texto simple)
+  const serviciosOrdenados = sortServiciosByFecha(maestroState.servicios);
+  
   const body = [];
-    maestroState.servicios.forEach(sd => {
+    serviciosOrdenados.forEach(sd => {
     // Fila 1 (principal)
     body.push([
         fecha(sd.fecha),
@@ -1064,6 +1066,34 @@ async function exportarPDF() {
   });
 
   doc.save(`PROGRAMA_HIMNOS_${(maestroState.periodo || "MES-AAAA")}.pdf`);
+}
+
+  function parseISODateSafe(s) {
+  // Espera "YYYY-MM-DD"
+  if (!s || typeof s !== "string") return null;
+  const m = s.trim().match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!m) return null;
+  const y = +m[1], mo = +m[2], d = +m[3];
+  // Construcción en UTC para evitar corrimientos por zona horaria
+  const dt = new Date(Date.UTC(y, mo - 1, d));
+  // Validación: que no se autocorrija a otra fecha
+  if (dt.getUTCFullYear() !== y || dt.getUTCMonth() !== mo - 1 || dt.getUTCDate() !== d) return null;
+  return dt.getTime(); // timestamp
+}
+
+function sortServiciosByFecha(servicios) {
+  // Deja al final los SD sin fecha válida, manteniendo su orden relativo (estable).
+  return servicios
+    .map((sd, idx) => ({ sd, idx, t: parseISODateSafe(sd.fecha) }))
+    .sort((a, b) => {
+      const at = a.t, bt = b.t;
+      if (at == null && bt == null) return a.idx - b.idx;
+      if (at == null) return 1;
+      if (bt == null) return -1;
+      if (at !== bt) return at - bt;
+      return a.idx - b.idx; // estable cuando coinciden fechas
+    })
+    .map(x => x.sd);
 }
 
 function renderTablaResultado() {
@@ -1174,4 +1204,5 @@ function editSD(idx) {
   document.querySelector("#btnCancelarSD").onclick = () => { ed.innerHTML = ""; };
 
 }
+
 
