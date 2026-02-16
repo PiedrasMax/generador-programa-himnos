@@ -696,7 +696,7 @@ function leerMarcaAgua(e) {
 function procesarMaestro() {
   const texto = (document.querySelector("#inputMaestro").value || "").trim();
   const bloques = texto.split("#SD").filter(b => b.trim() !== "");
-  maestroState.servicios = [];
+  maestroState.servicios = maestroState.servicios || [];
 
   const lineToKV = (line) => {
     const [k, ...rest] = line.split(":");
@@ -755,17 +755,23 @@ function procesarMaestro() {
   });
 
   // Periodo (MM-AAAA) desde primer SD; editable si quisieras
-  maestroState.periodo = "";
-  if (maestroState.servicios.length && maestroState.servicios[0].fecha) {
-    const ymd = maestroState.servicios[0].fecha.split("-");
-    if (ymd.length >= 2) maestroState.periodo = `${ymd[1]}-${ymd[0]}`;
-  }
+  maestroState.periodo = getPeriodoFromServicios(maestroState.servicios)
 
 
   // NUEVO: render con botones Editar/Borrar + editor embebido
   renderTablaResultado();
   const ed = document.querySelector("#editorArea");
   if (ed) ed.innerHTML = ""; // limpiar editor si había uno abierto
+}
+
+function getPeriodoFromServicios(servicios) {
+  // Busca la primera fecha ISO válida YYY-MM-DD y devuelve "MM-AAAA"
+  for (const sd of (servicios || [])) {
+    const f = (sd?.fecha || "").trim();
+    const m = f.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (m) return ${m[2]}-${m[1]}; // MM-AAAA
+  }
+  return ""; // si no hay ninguna fecha válida
 }
 
 function renderTablaResultado() {
@@ -1216,5 +1222,6 @@ function editSD(idx) {
   document.querySelector("#btnCancelarSD").onclick = () => { ed.innerHTML = ""; };
 
 }
+
 
 
