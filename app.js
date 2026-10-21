@@ -207,6 +207,7 @@ function cargarFormularioColaborador() {
     <h2>Modo Colaborador</h2>
 
     <div id="listaSD"></div>
+    <div id="avisoRepeticionesColaborador" class="aviso-repeticiones hidden" role="status" aria-live="polite"></div>
 
     <div class="btn-row" style="margin-top:12px; gap:8px; flex-wrap:wrap;">
       <button id="agregarSD">Agregar Servicio Divino</button>
@@ -221,6 +222,9 @@ function cargarFormularioColaborador() {
   document.getElementById("agregarSD").onclick = agregarSD;
   document.getElementById("copiar").onclick = copiarTexto;
 
+  const listaSD = document.getElementById("listaSD");
+  listaSD.addEventListener("input", actualizarAvisoColaborador);
+  listaSD.addEventListener("change", actualizarAvisoColaborador);
   agregarSD(); // primer SD por defecto
 }
 
@@ -276,6 +280,7 @@ function agregarSD() {
 
   // Cablear pickers
   wireHimnoPickers(bloque);
+  actualizarAvisoColaborador();
 
   // Cada cambio en himnos -> actualizar estado
   bloque.querySelectorAll('.campo-himno .himnario, .campo-himno .numero, .campo-himno .numeroSel').forEach(el=>{
@@ -547,6 +552,100 @@ function getNumeroCampo(campo) {
     : (campo.querySelector(".numero")?.value    || "").trim();
 }
 
+// Repeticiones: comparación informativa, sin modificar servicios ni catálogo.
+function normalizarReferenciaHimno(himno) {
+  const himnario = String(himno?.himnario ?? "").trim().toUpperCase();
+  let numero = String(himno?.numero ?? "").trim().toUpperCase();
+  if (!himnario || !numero || himnario === "-" || numero === "-") return null;
+  if (/^\d+$/.test(numero)) numero = numero.replace(/^0+(?=\d)/, "");
+  return { himnario, numero, clave: JSON.stringify([himnario, numero]) };
+}
+
+function detectarRepeticionesMensuales(servicios) {
+  const grupos = new Map();
+  const serviciosSinFecha = [];
+  (servicios || []).forEach((sd, indiceServicio) => {
+    const fecha = String(sd?.fecha ?? "").trim();
+    if (parseISODateSafe(fecha) == null) {
+      serviciosSinFecha.push(indiceServicio);
+      return;
+    }
+    const mes = fecha.slice(0, 7);
+    (sd.himnos || []).forEach(himno => {
+      const ref = normalizarReferenciaHimno(himno);
+      if (!ref) return;
+      const clave = JSON.stringify([mes, ref.clave]);
+      if (!grupos.has(clave)) grupos.set(clave, {
+        mes, himnario: ref.himnario, numero: ref.numero, ocurrencias: []
+      });
+      grupos.get(clave).ocurrencias.push({
+        fecha, rol: himno.rol || "Sin función", indiceServicio
+      });
+    });
+  });
+  const repeticiones = Array.from(grupos.values()).filter(g => g.ocurrencias.length > 1);
+  repeticiones.sort((a, b) => a.mes.localeCompare(b.mes) ||
+    a.himnario.localeCompare(b.himnario) ||
+    a.numero.localeCompare(b.numero, undefined, { numeric: true }));
+  repeticiones.forEach(g => g.ocurrencias.sort((a, b) =>
+    a.fecha.localeCompare(b.fecha) || a.indiceServicio - b.indiceServicio));
+  return { repeticiones, serviciosSinFecha };
+}
+
+function renderAvisoRepeticiones(panel, servicios, esBorrador = false) {
+  if (!panel) return;
+  const { repeticiones, serviciosSinFecha } = detectarRepeticionesMensuales(servicios);
+  panel.replaceChildren();
+  panel.classList.toggle("hidden", !repeticiones.length && !serviciosSinFecha.length && !esBorrador);
+  const agregar = (tag, texto, destino = panel) => {
+    const nodo = document.createElement(tag);
+    nodo.textContent = texto;
+    destino.appendChild(nodo);
+    return nodo;
+  };
+  if (esBorrador) agregar("p", "Vista previa de edición. El PDF usa los datos guardados; pulsá Guardar para aplicar cambios.");
+  if (repeticiones.length) {
+    agregar("p", "Aviso informativo: las repeticiones no impiden generar el PDF");
+    let mesAnterior = "";
+    repeticiones.forEach(g => {
+      if (g.mes !== mesAnterior) {
+        agregar("h4", `Repeticiones en ${g.mes.slice(5)}/${g.mes.slice(0, 4)}`);
+        mesAnterior = g.mes;
+      }
+      agregar("strong", `${g.numero} ${g.himnario}`);
+      const lista = agregar("ul", "");
+      g.ocurrencias.forEach(o => {
+        const [y, m, d] = o.fecha.split("-");
+        agregar("li", `${d}/${m}/${y} — ${o.rol} — SD #${o.indiceServicio + 1}`, lista);
+      });
+    });
+  } else if (esBorrador) agregar("p", "Sin repeticiones en los servicios con fecha válida.");
+  if (serviciosSinFecha.length) agregar("p",
+    `Hay servicios sin fecha válida; no se pudo verificar su pertenencia a un mes (SD #${serviciosSinFecha.map(i => i + 1).join(", #")}).`);
+}
+
+function leerHimnosParaAviso(contenedor) {
+  return Array.from(contenedor.querySelectorAll(".campo-himno"), campo => ({
+    rol: campo.dataset.label,
+    himnario: campo.querySelector(".himnario")?.value || "",
+    numero: getNumeroCampo(campo)
+  }));
+}
+
+function actualizarAvisoColaborador() {
+  const contenedor = document.getElementById("listaSD");
+  if (!contenedor) return;
+  const servicios = Array.from(contenedor.querySelectorAll(".sd-acc"), bloque => ({
+    fecha: bloque.querySelector(".fecha")?.value || "",
+    himnos: leerHimnosParaAviso(bloque)
+  }));
+  renderAvisoRepeticiones(document.getElementById("avisoRepeticionesColaborador"), servicios);
+}
+
+function actualizarAvisoMaestro() {
+  renderAvisoRepeticiones(document.getElementById("avisoRepeticionesMaestro"), maestroState.servicios);
+}
+
 function copiarTexto() {
   let salida = "";
   const bloques = document.querySelectorAll(".sd-acc"); // <-- acordeón SD
@@ -647,6 +746,7 @@ function cargarMaestro() {
 
     <div class="section">
       <h3>3) Vista rápida y Exportar</h3>
+      <div id="avisoRepeticionesMaestro" class="aviso-repeticiones hidden" role="status" aria-live="polite"></div>
       <div class="btn-row">
         <button id="btnAgregarSD">Agregar SD</button>
         <button id="exportarPDF">Exportar PDF</button>
@@ -876,6 +976,7 @@ function editSD(idx) {
 }
 
 async function exportarPDF() {
+  actualizarAvisoMaestro();
   if (!window.jspdf || !window.jspdf.jsPDF || !window.jspdf.jsPDF.API.autoTable) {
     alert("Falta jsPDF o AutoTable. Cargalos antes de app.js.");
     return;
@@ -1115,6 +1216,7 @@ function sortServiciosByFecha(servicios) {
 }
 
 function renderTablaResultado() {
+  actualizarAvisoMaestro();
   let html = `<p><b>Servicios procesados:</b> ${maestroState.servicios.length} &nbsp;` +
              (maestroState.periodo ? `&mdash; <b>Período:</b> ${maestroState.periodo}` : ``) +
              `</p>`;
@@ -1165,6 +1267,7 @@ function editSD(idx) {
   ed.innerHTML = `
     <div class="section">
       <h3>Editar SD #${idx+1}</h3>
+      <div id="avisoRepeticionesBorrador" class="aviso-repeticiones" role="status" aria-live="polite"></div>
       Fecha: <input type="date" id="edFecha" value="${sd.fecha||""}"><br><br>
       ${roles.map(r => campoHimno(r, (r==="Arrepentimiento" || r==="Santa Cena" || r==="Lectura Bíblica"))).join("")}
       <div class="btn-row">
@@ -1199,12 +1302,25 @@ function editSD(idx) {
     c.querySelector(".numero").dispatchEvent(new Event("input"));
   });
 
+  // El borrador reemplaza un SD en una copia temporal, nunca en el estado real.
+  const actualizarBorrador = () => {
+    const servicios = maestroState.servicios.map((servicio, i) => i === idx ? {
+      ...servicio,
+      fecha: ed.querySelector("#edFecha").value || "",
+      himnos: leerHimnosParaAviso(ed)
+    } : servicio);
+    renderAvisoRepeticiones(ed.querySelector("#avisoRepeticionesBorrador"), servicios, true);
+  };
+  ed.oninput = actualizarBorrador;
+  ed.onchange = actualizarBorrador;
+  actualizarBorrador();
+
   document.querySelector("#btnGuardarSD").onclick = () => {
     sd.fecha = (document.querySelector("#edFecha").value || "");
     sd.himnos = roles.map(r => {
       const c = Array.from(ed.querySelectorAll(".campo-himno")).find(x => x.dataset.label === r);
       const h = (c.querySelector(".himnario")?.value || "");
-      const n = (c.querySelector(".numero")?.value || "").trim();
+      const n = getNumeroCampo(c);
       const obj = getHimno(h, n);
       const est = (c.querySelector(".estrofas")?.value || "").trim();
       return {
