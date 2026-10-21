@@ -311,3 +311,8 @@ button:hover{ background:#111; }
 .himno-acc .sep { color:#999; }
 .himno-acc .resumen { color:#555; }
 @media (max-width: 768px){ .himno-acc > summary{ font-size:17px; padding:14px 12px; } }
+
+/* Avisos informativos: visibles en pantalla, fuera del PDF. */
+.aviso-repeticiones { background: #fff8d0; border: 1px solid #b58c27; border-radius: 6px; padding: 10px 12px; margin: 10px 0; overflow-wrap: anywhere; }
+.aviso-repeticiones p, .aviso-repeticiones h4 { margin: 6px 0; }
+.aviso-repeticiones ul { margin-top: 4px; padding-left: 24px; }
